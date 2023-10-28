@@ -1,0 +1,742 @@
+ <!-- https://www.lifehack.org/articles/lifestyle/100-life-hacks-that-make-life-easier.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 25 Incredible Life Hacks That Make Life So Much Easier</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<script src="./jquery-3.7.1.min.js"></script>
+</head>
+<body class="mx-auto font-['Barlow', sans-serif] h-screen w-full container">
+  <div class="mx-auto container w-full">
+    
+  
+    <!-- 1.NavBar Section...!!! -->
+    <div class="h-28 bg-[#2a6354] flex justify-between text-white font-['Barlow', sans-serif] text-1xl px-5 items-center">
+          <a href="" class="text-2xl md:p-5 lg:p-7"><img class="h-16 w-auto" src="./logo.png" alt=""></a>
+          <div class=" items-center lg:text-xl p-5 md:text-sm hidden md:flex">
+           <div class="flex"> <a href="./timeflowinmotion.html" class=" hover:text-[#EEBC5E] h-6 flex items-center lg:px-5 md:px-2">Start Here </a> <div id="arrow1"><i class="fa-solid fa-chevron-down text-sm"></i></div></div>     
+            <a href="./AchievingGoals.html" class=" hover:text-[#EEBC5E] h-6 flex-col items-center lg:px-5 md:px-2">Resources</a>
+            <a href="./Solutios-timeflow.html" class=" hover:text-[#EEBC5E] h-6 flex-col items-center lg:px-5 md:px-2">Solutions</a>
+            <a href="./lifehackproducts.html" class=" hover:text-[#EEBC5E] h-6 flex-col items-center lg:px-5 md:px-2">Products</a>
+            <a href="./pricingbeforefooter.png" class=" hover:text-[#EEBC5E] h-6 flex-col items-center lg:px-5 md:px-2">Pricing</a>
+            <a href="./lifehack-SignUpform.html"><button class="w-28 h-11 bg-black text-[#EEBC5E] font-semibold hover:bg-[#4e4e4d]">Join Now</button></a>
+          </div>
+          <button class="md:hidden" id="btn"><i class="fa-solid fa-bars text-2xl"></i></button>
+    </div>
+
+    <!-- hidden slide for start Here of navbar -->
+    <div id="down-slide1" class="w-[210px] h-[220px] absolute bg-black xl:ml-[550px] lg:ml-[280px] md:ml-[230px] mt-[-25px] text-white p-2 px-5 hidden ">
+       <a href="" class="hover:text-[#EEBC5E]">The Time/Life Assessment </a> <br> <br>
+       <a href="" class="hover:text-[#EEBC5E]">The Time Flow System</a> <br> <br>
+       <a href="./timeflowinmotion.html" class="hover:text-[#EEBC5E]">Time Flow in Motion</a> <br> <br>
+       <a href="" class="hover:text-[#EEBC5E]">Mastering Your Time</a>  
+    </div>
+      <!-- hidden navbar for menu button -->
+    <div class="h-[420px] container text-white bg-[#2a6354] absolute mx-auto hidden" id="menu">
+      <div class="flex justify-between"><a href="./timeflowinmotion.html" class="block hover:text-[#EEBC5E] pl-5 py-5 p-6">Start Here</a><div id="arrow" class="mr-5"><i class="fa-solid fa-chevron-down text-sm"></i></div></div>
+      <!-- hidden slide for start here of hidden navbar -->
+      <div id="down-slide" class="w-full h-auto bg-[#1d4a40] text-white p-2 px-5 hidden">
+        <a href="" class="hover:text-[#EEBC5E]">The Time/Life Assessment </a> <br> <br>
+        <a href="" class="hover:text-[#EEBC5E]">The Time Flow System</a> <br> <br>
+        <a href="./timeflowinmotion.html" class="hover:text-[#EEBC5E]">Time Flow in Motion</a> <br> <br>
+        <a href="" class="hover:text-[#EEBC5E]">Mastering Your Time</a>  
+     </div>
+      <a href="./AchievingGoals.html" class="block hover:text-[#EEBC5E] pl-5 py-5">Resources</a>
+      <a href="Solutios-timeflow.html" class="block hover:text-[#EEBC5E] pl-5 py-5">Solutions</a>
+      <a href="lifehackproducts.html" class="block hover:text-[#EEBC5E] pl-5 py-5">Products</a>
+      <a href="pricinglifehack.html" class="block hover:text-[#EEBC5E] pl-5 py-5">Pricing</a>
+      <a href="./lifehack-SignUpform.html"><button class="flex items-center p-3 w-full h-14 bg-black text-[#EEBC5E] font-semibold hover:bg-[#4e4e4d]">Join Now <i class="fa-solid fa-arrow-right ml-3"></i></button></a>
+    </div>
+
+
+    <script>
+
+      // script for hidden navbar
+       $(document).ready(function(){
+        $('#btn').click(function(){
+        $('#menu').slideToggle();
+        abc();    
+        })
+        function abc() {
+        var a ='<i class="fa-solid fa-xmark text-2xl"></i>';
+        var b ='<i class="fa-solid fa-bars text-2xl"></i>';
+
+        if($('#btn').html()===a)
+        {
+            $('#btn').html(b);
+        }
+        
+        else{
+            $('#btn').html(a);
+        }
+        }
+       });
+
+        //  script for hidden slide for start here of hidden navbar
+       $(document).ready(function(){
+        $('#arrow').click(function(){
+        $('#down-slide').slideToggle();
+        abc();    
+        })
+        function abc() {
+        var c ='<i class="fa-solid fa-chevron-up"></i>';
+        var d ='<i class="fa-solid fa-chevron-down"></i>';
+
+        if($('#arrow').html()===c)
+        {
+            $('#arrow').html(d);
+        }
+        
+        else{
+            $('#arrow').html(c);
+        }
+        }
+       });
+
+          
+ //  script for hidden slide for start here of navbar
+ $(document).ready(function(){
+            $('#arrow1').click(function(){
+              $('#down-slide1').toggle();
+            });
+           });
+   
+    </script>
+      <!-- main hero-image section -->
+      <div class="w-full h-auto container flex">
+            <!-- left section of main hero-image -->
+    <div class="pl-11 w-[830px] h-auto">
+      <!-- heading of home... 200 incredible life -->
+      <div class="mt-10 font-semibold">
+        <a href="" class="text-gray-500 underline hover:text-[#2a6354] hover:no-underline">Home <i class="fa-solid fa-angles-right text-xs"></i></a> 
+        <a href="" class="text-gray-500 underline hover:text-[#2a6354] hover:no-underline">Lifestyle <i class="fa-solid fa-angles-right text-xs"></i></a> 
+        25 Incredible Life Hacks That Make Life So Much Easier</div>
+        <p class="text-gray-500 my-7">Last Updated on February 18, 2022</p>
+        <p class="text-[#ee7546] font-semibold mb-7">LIFESTYLE</p>
+        <h2 class="font-serif text-[45px] font-medium mb-6">25 Incredible Life Hacks That Make <br> Life So Much Easier</h2>
+
+        <!-- div for profile img  -->
+        <div class="w-[340px] h-auto flex justify-between">
+          <div class="w-16 h-16 rounded-full"><img class="w-full rounded-full" src="./profilepic.jpeg" alt=""></div>
+          <div class="w-auto h-auto flex flex-col justify-center p-2">
+            <span class="">Written by Brian Lee </span> 
+            Ex-chief of product management at <br> Lifehack</div>
+        </div>
+
+        <!-- div for contact inputs -->
+        <div class="w-full h-auto flex py-5 gap-2">
+          <div class="lg:w-[130px] md:w-[90px] sm:w-[130px] h-9 flex justify-center items-center text-white hover:bg-[#212121] bg-black"><i class="fa-brands fa-facebook-f"></i></div>
+          <div class="lg:w-[130px] md:w-[90px] sm:w-[130px] h-9 flex justify-center items-center text-white hover:bg-[#212121] bg-black"><i class="fa-brands fa-pinterest-p"></i></div>
+          <div class="lg:w-[130px] md:w-[90px] sm:w-[130px] h-9 flex justify-center items-center text-white hover:bg-[#212121] bg-black"><i class="fa-brands fa-twitter"></i></div>
+          <div class="lg:w-[130px] md:w-[90px] sm:w-[130px] h-9 flex justify-center items-center text-white hover:bg-[#212121] bg-black"><i class="fa-brands fa-linkedin-in"></i></div>
+          <div class="lg:w-[130px] md:w-[90px] sm:w-[130px] h-9 flex justify-center items-center text-white hover:bg-[#212121] bg-black"><i class="fa-regular fa-envelope"></i></div>
+        </div> 
+          
+        <!-- div for para -->
+          <p class=" w-[670px] h-auto">
+            Life hacks are intended to improve your life, and as per its real definition, it’s a system or procedure taken on to deal with one’s time and everyday exercises in a more effective manner. <br> <br>
+            With an ever-increasing number of inventive hacks advancing onto the web every day, there’s simply no justifiable reason for not compromising (the smart way) and saving yourself time and trouble. <br><br>
+            You live, and you learn, and you can discover a few pretty astonishing things out en route. Notwithstanding, there are still a lot of hacks for making life simpler that you haven’t found presently <br> <br>
+            This rundown will make them say, “Where have these been the entirety of my life?” Because indeed, they’re simply amazing. From effectively cleaning your console to applying eyeliner, these little-known techniques will make your life better. <br> <br>
+            Thus, quit passing up these virtuoso approaches to simplifying everything, and begin using these simple life hacks!
+          </p>
+
+          <div class="w-[700px] h-4 bg-gray-300 mt-6 flex justify-center items-center text-[12px] font-bold">
+            <p class="bg-white ">TABLE OF CONTENT</p></div>
+
+
+           <div class=" w-[350px] mt-5">
+           <a href="" class="hover:text-[#2a6354]"> 1. 15 Amazing Life Hacks(in Images!)</a> <br>
+            <a href="" class="hover:text-[#2a6354]">2.13 More  Practical Life Hacks to Try</a> <br>
+            <ul class="list-disc px-5">
+            <li><a href="" class="hover:text-[#2a6354]">Some Good Life Hacks</a></li>
+            <li><a href="" class="hover:text-[#2a6354]">Life Hacks To Do At Home</a></li>
+            <li><a href="" class="hover:text-[#2a6354]">Real Life Hacks</a></li>
+            <li><a href="" class="hover:text-[#2a6354]">Daily Life Hacks</a></li>
+            <li><a href="" class="hover:text-[#2a6354]">Life Hacks To Make Life Easier</a></li>
+            <li><a href="" class="hover:text-[#2a6354]">Everyday Life Hacks</a></li>
+            <li><a href="" class="hover:text-[#2a6354]">Life Hack Examples</a></li>
+            <li><a href="" class="hover:text-[#2a6354]">Helpful Hacks For Making Life Easier</a></li>
+            </ul>
+            <a href="">3.Final Thoughts</a>
+           </div>
+ 
+           <h2 class="font-serif text-[40px] mt-5 font-medium mb-4">15 Amazing Life Hacks(in Images!)</h2>
+           <p>Here’re 100 practical life hacks so you can just pick up any of them right away!</p>
+
+           <!-- img of hack1 -->
+           <img class="my-8" src="./main1.jpg" alt="">
+           <!-- img of hack2 -->
+           <img class="my-8" src="./main2.jpg" alt="">
+           <!-- img of hack3 -->
+           <img class="my-8" src="./main16.jpg" alt="">
+           <!-- img of hack4 -->
+           <img class="my-8" src="./main4.webp" alt="">
+           <!-- img of hack5 -->
+           <img class="my-8" src="./main5.webp" alt="">
+           <!-- img of hack6 -->
+           <img class="my-8" src="./main6.webp" alt="">
+           <!-- img of hack7 -->
+           <img class="my-8" src="./main7.webp" alt="">
+           <!-- img of hack8 -->
+           <img class="my-8" src="./main8.jpeg" alt="">
+           <!-- img of hack9 -->
+           <img class="my-8" src="./main9.jpeg" alt="">
+           <!-- img of hack10 -->
+           <img class="my-8" src="./main10.webp" alt="">
+           <!-- img of hack11 -->
+           <img class="my-8" src="./main11.webp" alt="">
+           <!-- img of hack12 -->
+           <img class="my-8" src="./main12.webp" alt="">
+           <!-- img of hack13 -->
+           <img class="my-8" src="./main13.webp" alt="">
+           <!-- img of hack14 -->
+           <img class="my-8" src="./main14.webp" alt="">
+           <!-- img of hack15 -->
+           <img class="my-8" src="./main15.webp" alt="">
+
+           <h2 class="font-serif text-[40px] mt-5 font-medium mb-4">10 Amazing Life Hacks(in Images!)</h2>
+           <p>If you are wondering, what useful life hacks can you use to make your everyday life simpler, <br> here is a list to peruse:</p>
+
+           <h2 class="font-serif text-[26px] mt-5 font-medium mb-4">Some Good Life Hacks</h2>
+           <p class=" w-[670px] h-auto">
+            1. Shine Your Teeth <br> <br>
+            Our day starts with the toothbrush. Brushing is a fundamental errand that guarantees newness. In the wake of awakening, there is still drowsiness. To dispose of it, we clean our teeth. Add a touch of salt to the toothpaste. This should be done while applying the glue to the brush. <br><br>
+            Clean your teeth gradually every which way. The additional salt will assist you with eliminating the yellowish surface of your teeth. This will enlighten your teeth by making them whiter than any time in recent memory. <br><br>
+            In addition, salt contains chlorine, which takes out all microbes. Doing this will keep your teeth decent, broadening your life. Along these lines, never this plan to add salt to your glue. <br>
+            <h2 class="font-serif text-[26px] mt-2 font-medium ">Life Hacks To Do At Home</h2> <br> 
+            2. Drinking lukewarm lemon water every morning balances your body pH levels. <br> 
+            <h2 class="font-serif text-[26px] mt-2 font-medium ">Real Life Hacks</h2> <br> 
+            3. If a lid is stuck, just pour a little hot water. Leave for a few minutes and then open. <br> 
+            <h2 class="font-serif text-[26px] mt-2 font-medium ">Daily Life Hacks</h2> <br> 
+            4.  If the gum is stuck on your hair, use peanut better to remove it. <br> 
+            <h2 class="font-serif text-[26px] mt-2 font-medium ">Life Hacks To Make Life Easier</h2> <br> 
+            5.   Add frozen natural product to your tea rather than ice. <br> 
+            <h2 class="font-serif text-[26px] mt-2 font-medium ">Everyday Life Hacks</h2> <br> 
+            6.   If you have various internet records, then use namechk.com to see each site <br> where your name has been utilized <br> <br>
+            <h2 class="font-serif text-[26px] mt-2 font-medium ">Life Hack Examples</h2> <br> 
+            7.   You can learn Spanish, French, Italian, German, and Portuguese on duolingo.com. <br> 
+            <h2 class="font-serif text-[26px] mt-2 font-medium ">Helpful Hacks For Making Life Easier</h2> <br> 
+            8.    To eliminate little scratches on furnishings, use toothpaste. <br> 
+            9.    Use vinegar to eliminate scents from the microwave. <br> 
+            10.    Use ketchup to clean copper. <br> <br>
+            <h2 class="font-serif text-[40px] mt-3 font-medium">Final Thoughts</h2> <br>
+           Individuals get disappointed by doing everyday errands again and again. The work interaction <br> turns out to be exceptionally extended. Thus, the singular begins to lose interest. To handle this <br> issue, there are numerous easy life hacks. <br>
+           Life hacks are stunts to make everyday work simpler. It lessens our endeavors by simplifying <br> our work. Thus, these life hacks save a great deal of time and energy. <br>
+           </p>
+           
+           <div class="w-[690px] h-auto bg-[#f0f4fa] flex flex-col p-5 mt-6">
+            <h2 class="font-serif text-[30px] my-4 font-medium">Is Your Time in <span class="text-[#ee7546]">Harmony</span> with Your Life?</h2>
+            <img src="./harmony.webp" alt="">
+            <p class="font-medium my-5">
+              Uncover the truth behind your time. <br><br>
+              Take this free  assessment and get a full custom report with <br> <span class="font-bold">personalized insights</span> on:
+              <ul class="p-6 list-disc">
+               <li>Your current time / life related challenges</li>
+               <li>The underlying causes driving them</li>
+               <li><span class="font-bold">3 instant solutions</span> you can implement now</li>
+              </ul>
+            </p>
+            <button class="w-full h-10 bg-[#ee7546] text-white font-serif font-semibold">Take Free Assessment <i class="fa-solid fa-arrow-right"></i></button>
+           </div>
+
+            <!-- div for contact inputs -->
+        <div class="w-full h-auto flex py-5 gap-2">
+          <div class="lg:w-[130px] md:w-[90px] sm:w-[130px] h-9 flex justify-center items-center text-white hover:bg-[#212121] bg-black"><i class="fa-brands fa-facebook-f"></i></div>
+          <div class="lg:w-[130px] md:w-[90px] sm:w-[130px] h-9 flex justify-center items-center text-white hover:bg-[#212121] bg-black"><i class="fa-brands fa-pinterest-p"></i></div>
+          <div class="lg:w-[130px] md:w-[90px] sm:w-[130px] h-9 flex justify-center items-center text-white hover:bg-[#212121] bg-black"><i class="fa-brands fa-twitter"></i></div>
+          <div class="lg:w-[130px] md:w-[90px] sm:w-[130px] h-9 flex justify-center items-center text-white hover:bg-[#212121] bg-black"><i class="fa-brands fa-linkedin-in"></i></div>
+          <div class="lg:w-[130px] md:w-[90px] sm:w-[130px] h-9 flex justify-center items-center text-white hover:bg-[#212121] bg-black"><i class="fa-regular fa-envelope"></i></div>
+        </div> 
+ </div>
+
+
+
+  <!-- right section of main hero-image -->
+          <div class=" w-[500px] flex-col  h-[2400px] font-['Arvo', serif] px-5 hidden md:flex"> 
+          <!-- div for lifehack subscribe... -->
+           <div class="w-[330px] h-[280px] my-14 mx-4 bg-white p-3 border-4 border-yellow-500">
+            <img src="./lifehack white.webp" alt="">
+            <h3 class="text-[#2a6354] font-serif font-semibold text-lg px-3">Add Hours Back to Your Day</h3>
+            <p class="px-3">Sign up for our <span class="font-bold text-base"> LifeHack Insider Newsletter</span> for  <span class="underline">FREE</span> and get <span class="text-[#ee7546]">exclusive time-reclaiming tips and techniques</span>.</p>
+            <input class="text-sm w-[270px] h-[35px] px-3 mx-3 mt-5 border-[1px] border-gray-300" type="text" placeholder="Enter your email address here...">
+            <div class="text-base w-[270px] h-[35px] px-3 mx-3 mt-3 bg-[#2a6354] cursor-pointer flex justify-center items-center text-white font-medium hover:bg-[#3e8874]">SubscribeForFree</div>
+           </div> 
+          <!-- heading of read more1 -->
+           <h3 class="text-xl font-semibold font-serif">Read More</h3> 
+          <!-- div1 for img1 & heading -->
+           <div class="w-[380px] h-[60px] flex mt-5  gap-5 ">
+           <a href=""><img class="w-[75px] h-auto" src="./image1.webp" alt=""></a>
+           <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">How to Use a Planner Effectively</a>
+          </div> 
+           <!-- div2 for img2 & heading -->
+            <div class="w-[380px] h-auto flex   gap-5">
+            <a href=""><img class="w-[120px] h-auto" src="./image2.webp" alt=""></a>
+            <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">How to be a better Planner:Avoid the Planning Faculty</a>
+           </div>
+           <!-- div3 for img3 & heading -->
+           <div class="w-[380px] h-[60px] flex mt-2 gap-5">
+            <a href=""><img class="w-[75px] h-auto" src="./image3.webp" alt=""></a>
+            <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">5 Best Apps to Help You Delegate <br>Tasks Easily</a>
+           </div>
+            <!-- div4 for img4 & heading -->
+            <div class="w-[380px] h-[60px] flex gap-5">
+              <a href=""><img class="w-[75px] h-auto" src="./image4.webp" alt=""></a>
+              <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">Delegating Leadership Style: <br> What is it & When to Use it?</a>
+             </div>
+              <!-- div5 for img5 & heading -->
+           <div class="w-[380px] h-[60px] flex gap-5">
+            <a href=""><img class="w-[75px] h-auto" src="./image5.webp" alt=""></a>
+            <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">The Fear of Delegating Work to <br> Others</a>
+           </div>
+             <!-- div6 for img6 & heading -->
+             <div class="w-[380px] h-[60px] flex  gap-5">
+              <a href=""><img class="w-[75px] h-auto" src="./image6.webp" alt=""></a>
+              <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">Why is Delegation Important in <br> Leadership</a>
+             </div>
+               <!-- div7 for img7 & heading -->
+           <div class="w-[380px] h-[60px] flex  gap-5">
+            <a href=""><img class="w-[75px] h-auto" src="./image7.webp" alt=""></a>
+            <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">7 Best Tools to Prioritizing Work</a>
+           </div>
+             <!-- div8 for img8 & heading -->
+             <div class="w-[380px] h-[60px] flex  gap-5">
+              <a href=""><img class="w-[75px] h-auto" src="./image8.webp" alt=""></a>
+              <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">How to Deal With Competing <br> Priorities Effectively</a>
+             </div>
+               <!-- div9 for img9 & heading -->
+               <div class="w-[380px] h-[60px] flex  gap-5">
+                <a href=""><img class="w-[75px] h-auto" src="./image9.webp" alt=""></a>
+                <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">What is RICE Prioritization Model <br> And How Does it Work</a>
+               </div>
+                 <!-- div10 for img10 & heading -->
+             <div class="w-[380px] h-[60px] flex  gap-5">
+              <a href=""><img class="w-[75px] h-auto" src="./image10.webp" alt=""></a>
+              <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">4 Exercises to Improve Your Focus</a>
+             </div>
+
+
+              <!-- heading of read more2 -->
+           <h3 class="text-xl font-semibold font-serif mt-10">Read More</h3> 
+           <!-- div1 for img11 & heading -->
+            <div class="w-[380px] h-[60px] flex mt-5  gap-5 ">
+            <a href=""><img class="w-[75px] h-auto" src="./image11.webp" alt=""></a>
+            <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">What Is Chronic Procrastination <br>and How To Deal with It</a>
+           </div> 
+            <!-- div2 for img12 & heading -->
+             <div class="w-[380px] h-auto flex   gap-5">
+             <a href=""><img class="w-[100px] h-auto" src="./image12.webp" alt=""></a>
+             <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">How to Snap Out of Procrastination With ADHD</a>
+            </div>
+            <!-- div3 for img13 & heading -->
+            <div class="w-[380px] h-[60px] flex mt-2 gap-5">
+             <a href=""><img class="w-[75px] h-auto" src="./image13.webp" alt=""></a>
+             <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">Are Depression And <br>Procrastination Connected?</a>
+            </div>
+             <!-- div4 for img14 & heading -->
+             <div class="w-[380px] h-[60px] flex gap-5">
+               <a href=""><img class="w-[75px] h-auto" src="./image14.webp" alt=""></a>
+               <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">Procrastination And Laziness: <br> Their Differences & Connections</a>
+              </div>
+               <!-- div5 for img15 & heading -->
+            <div class="w-[380px] h-[60px] flex gap-5">
+             <a href=""><img class="w-[75px] h-auto" src="./image15.jpg" alt=""></a>
+             <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">Bedtime <Procrastination:br></Procrastination:br> Why You Do It And <br> How To Break It</a>
+            </div>
+              <!-- div6 for img16 & heading -->
+              <div class="w-[380px] h-[60px] flex  gap-5">
+               <a href=""><img class="w-[75px] h-auto" src="./image16.webp" alt=""></a>
+               <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">15 Books on Procrastination <br> To Help You Start Taking Action</a>
+              </div>
+                <!-- div7 for img17 & heading -->
+            <div class="w-[380px] h-[60px] flex  gap-5">
+             <a href=""><img class="w-[75px] h-auto" src="./image17.jpg" alt=""></a>
+             <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">How to Achieve Your Goal <br> Effectively (Step-by-Step Guide)</a>
+            </div>
+              <!-- div8 for img18 & heading -->
+              <div class="w-[380px] h-[60px] flex  gap-5">
+               <a href=""><img class="w-[75px] h-auto" src="./image18.webp" alt=""></a>
+               <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">How to Overcome Complacency <br> in the Workplace</a>
+              </div>
+                <!-- div9 for img19 & heading -->
+                <div class="w-[380px] h-[65px] flex  gap-5">
+                 <a href=""><img class="w-[75px] h-[45px]" src="./image19.jpg" alt=""></a>
+                 <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">How to Commit to Your Passion <br> Projects When You’re Busy</a>
+                </div>
+                  <!-- div10 for img20 & heading -->
+              <div class="w-[380px] h-[60px] flex gap-5">
+               <a href=""><img class="w-[75px] h-auto" src="./image20.webp" alt=""></a>
+               <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">How to Cope With Anxiety- <br>Induced Procrastination</a>
+              </div>
+
+              <!-- heading of read more3 -->
+           <h3 class="text-xl font-semibold font-serif mt-10">Read More</h3> 
+           <!-- div1 for img21 & heading -->
+            <div class="w-[380px] h-[60px] flex mt-5  gap-5 ">
+            <a href=""><img class="w-[75px] h-auto" src="./image21.webp" alt=""></a>
+            <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">How to Boost Your Energy</a>
+           </div> 
+            <!-- div2 for img22 & heading -->
+             <div class="w-[380px] h-auto flex   gap-5">
+             <a href=""><img class="w-[75px] h-auto" src="./image22.webp" alt=""></a>
+             <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">15 Work-Life Balance Books to <br> Help You Take Control of Life</a>
+            </div>
+            <!-- div3 for img23 & heading -->
+            <div class="w-[380px] h-[60px] flex mt-2 gap-5">
+             <a href=""><img class="w-[75px] h-auto" src="./image23.webp" alt=""></a>
+             <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">Work Life Balance for Women: <br> What It Means & How to Find It</a>
+            </div>
+             <!-- div4 for img24 & heading -->
+             <div class="w-[380px] h-[60px] flex gap-5">
+               <a href=""><img class="w-[75px] h-auto" src="./image24.jpg" alt=""></a>
+               <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">6 Essential Mindsets For <br>Continuous Career Growth</a>
+              </div>
+               <!-- div5 for img25 & heading -->
+            <div class="w-[380px] h-[60px] flex gap-5">
+             <a href=""><img class="w-[75px] h-auto" src="./image25.jpg" alt=""></a>
+             <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">How to Discover Your  Career <br> Move to the Great Resignation</a>
+            </div>
+              <!-- div6 for img26 & heading -->
+              <div class="w-[380px] h-[60px] flex  gap-5">
+               <a href=""><img class="w-[75px] h-auto" src="./image26.webp" alt=""></a>
+               <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">Key to Creating Vibrant <br>(Magical Life) by Lee Cockerell</a>
+              </div>
+                <!-- div7 for img27 & heading -->
+            <div class="w-[380px] h-[60px] flex  gap-5">
+             <a href=""><img class="w-[75px] h-auto" src="./image27.jpg" alt=""></a>
+             <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">9 Tips on How To Disconnect <br> From Work And Stay Present  </a>
+            </div>
+               <!-- div8 for img28 & heading -->
+               <div class="w-[380px] h-[60px] flex  gap-5">
+                <a href=""><img class="w-[75px] h-auto" src="./image28.jpg" alt=""></a>
+                <a href="" class="text-[16px] h-auto font-bold font-serif text-[#2a6354] hover:text-[#3a977e]">Work-Life Integration vs <br> Work- Life Balance: Is One <br> Better Than the Other?</a>
+               </div>
+
+         </div> 
+ 
+
+
+  </div>
+        
+
+
+
+  <!-- read more section -->
+  
+ <section class=" body-font">
+  
+  <div class="container px-5 py-16 mx-auto">
+    <h3 class="flex text-2xl font-serif font-semibold py-3">Read Next</h3>
+    <div class="flex flex-wrap -m-4">
+
+      <!-- cart1 -->
+      <div class="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
+        <div class=" p-4 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="./readnext1.webp" alt="content">
+          <h2 class="text-xl text-[#2a6354] hover:text-[#53b49a] font-medium font-serif mb-4">how to Boost Your Focus And Attension Span</h2>
+        </div>
+      </div>
+
+      <!-- cart2 -->
+      <div class="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
+        <div class=" p-4 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="./readnext2.webp" alt="content">
+          <h2 class="text-xl text-[#2a6354] hover:text-[#53b49a] font-medium font-serif mb-4">What Are Distractions in a Nutshell</h2>
+          
+        </div>
+      </div>
+
+      <!-- cart3 -->
+      <div class="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
+        <div class=" p-4 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="./readnext3.webp" alt="content">
+          <h2 class="text-xl text-[#2a6354] hover:text-[#53b49a] font-medium font-serif mb-4">What is Procrastination And How to End it</h2>
+        </div>
+      </div>
+
+      <!-- cart4 -->
+      <div class="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
+        <div class=" p-4 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="./readnext4.webp" alt="content">
+          <h2 class="text-xl text-[#2a6354] hover:text-[#53b49a] font-medium font-serif mb-4">Prioritization-Using Your Time & Energy Effectively</h2>
+        </div>
+      </div>
+
+      <!-- cart5 -->
+      <div class="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
+        <div class=" p-4 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="./readnext5.webp" alt="content">
+          <h2 class="text-xl text-[#2a6354] hover:text-[#53b49a] font-medium font-serif mb-4">Delegation-Leveraging Your Time & Resources</h2>
+        </div>
+      </div>
+
+      <!-- cart6 -->
+      <div class="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
+        <div class=" p-4 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="./readnext6.webp" alt="content">
+          <h2 class="text-xl text-[#2a6354] hover:text-[#53b49a] font-medium font-serif mb-4">Your Guide to Effective Planning & Scheduling</h2>
+        </div>
+      </div>
+
+      <!-- cart7 -->
+      <div class="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
+        <div class=" p-4 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="./readnext7.webp" alt="content">
+          <h2 class="text-xl text-[#2a6354] hover:text-[#53b49a] font-medium font-serif mb-4">The Ultimate Guide to Achieving Goals</h2>
+        </div>
+      </div>
+
+      <!-- cart8 -->
+      <div class="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
+        <div class=" p-4 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="./readnext8.webp" alt="content">
+          <h2 class="text-xl text-[#2a6354] hover:text-[#53b49a] font-medium font-serif mb-4">How to Find Lasting Motivation</h2>
+        </div>
+      </div>
+
+      <!-- cart9 -->
+      <div class="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
+        <div class=" p-4 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="./readnext9.webp" alt="content">
+          <h2 class="text-xl text-[#2a6354] hover:text-[#53b49a] font-medium font-serif mb-4">Complete Guide to Getting Back Your Energy</h2>
+        </div>
+      </div>
+
+      <!-- cart10 -->
+      <div class="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
+        <div class=" p-4 rounded-lg">
+          <img class="h-40 rounded w-full object-cover object-center mb-6" src="./readnext10.webp" alt="content">
+          <h2 class="text-xl text-[#2a6354] hover:text-[#53b49a] font-medium font-serif mb-4">How to Have a Good Life Balance</h2>
+        </div>
+      </div>
+
+  </div>
+</section>
+
+
+
+
+  <!--Explore the Time Flow System section -->
+  
+  <section class=" body-font">
+  
+    <div class="container px-5 py-16 mx-auto">
+      <h3 class="flex text-2xl font-serif font-semibold py-3">Explore the Time Flow System</h3>
+      <div class="flex flex-wrap -m-4">
+  
+        <!-- cart1 -->
+        <div class="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
+          <div class=" p-4 rounded-lg">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="./explore1.webp" alt="content">
+            <h2 class="text-xl text-[#2a6354] hover:text-[#53b49a] font-medium font-serif mb-4">About the Time Flow System</h2>
+          </div>
+        </div>
+  
+        <!-- cart2 -->
+        <div class="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
+          <div class=" p-4 rounded-lg">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="./explore2.webp" alt="content">
+            <h2 class="text-xl text-[#2a6354] hover:text-[#53b49a] font-medium font-serif mb-4">Key Philosophy I:Pragmatic Priorities</h2>
+            
+          </div>
+        </div>
+  
+        <!-- cart3 -->
+        <div class="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
+          <div class=" p-4 rounded-lg">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="./explore3.webp" alt="content">
+            <h2 class="text-xl text-[#2a6354] hover:text-[#53b49a] font-medium font-serif mb-4">Key Philosophy II:Fluid Progress Like Water</h2>
+          </div>
+        </div>
+  
+        <!-- cart4 -->
+        <div class="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
+          <div class=" p-4 rounded-lg">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="./explore4.webp" alt="content">
+            <h2 class="text-xl text-[#2a6354] hover:text-[#53b49a] font-medium font-serif mb-4">Key Philosophy III:Sustainable Momentum</h2>
+          </div>
+        </div>
+  
+        <!-- cart5 -->
+        <div class="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
+          <div class=" p-4 rounded-lg">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="./explore5.webp" alt="content">
+            <h2 class="text-xl text-[#2a6354] hover:text-[#53b49a] font-medium font-serif mb-4">Key Philosophy IV:Three Goal Focus</h2>
+          </div>
+        </div>
+  
+        <!-- cart6 -->
+        <div class="xl:w-1/4 md:w-1/2 p-4 cursor-pointer">
+          <div class=" p-4 rounded-lg">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="./explore6.webp" alt="content">
+            <h2 class="text-xl text-[#2a6354] hover:text-[#53b49a] font-medium font-serif mb-4">How the Time Flow System Works</h2>
+          </div>
+        </div>
+  
+    </div>
+  </section>
+
+
+  <!-- stop the time drain section -->
+  <div class="w-[1200px] h-auto container m-auto bg-[#f0f4fa] flex flex-col py-9 px-11 mb-7 mt-6">
+ <div class=" flex flex-col">
+  <h2 class="font-serif text-[40px] my-4 font-medium">Stop the Time Drain, Fast Track Your Progress</h2>
+  <p class="font-medium text-lg ">
+    90% of busy, middle aged professionals suffer from one of these time challenges. Is this you?</p> <br>
+   <h4 class="font-bold text-xl ">Problem 1: Lack of Clarity and Focus</h4>
+   <p class="font-medium text-lg mt-2"><span class="font-bold text-[#ee7546]">Endless to-do lists</span> that leads to stress, inefficiency, and overwhelm due to a lack of clear priorities.</p>
+   <h4 class="font-bold text-xl mt-3">Problem 2: Rigid Plans & Schedules</h4>
+   <p class="font-medium text-lg mt-2">Packed <span class="font-bold text-[#ee7546]">calendars offer no flexibility</span>, leading to a constant rush and focus issues.</p>
+   <h4 class="font-bold text-xl mt-3">Problem 3: Decision & Priority Paralysis</h4>
+   <p class="font-medium text-lg mt-2">When <span class="font-bold text-[#ee7546]">everything feels equally urgent</span>, resulting in stagnation and wasted time.</p>
+   <h4 class="font-bold text-xl mt-3">Problen 4: Stuck in the Daily Grind</h4>
+   <p class="font-medium text-lg mt-2">Being <span class="font-bold text-[#ee7546]">trapped in daily routines</span> making breakthroughs feel impossible.</p> <br><br>
+  <p class="font-medium text-lg "> The Time Flow System is a pragmatic approach that adapts to real world challenges. Learn how to instantly rescue your time and reclaim control. </p>
+   <button class="w-full h-10 bg-[#2a6354] font-bold text-lg">Take Control Now <i class="fa-solid fa-arrow-right"></i></button>
+ </div>
+  </div>
+
+
+ <!-- Footer Section -->
+ <footer class="text-white body-font bg-black">
+  <div class="container px-5 py-20 mx-auto">
+    <!-- main section of Categories -->
+    <div class="flex flex-wrap lg:justify-evenly md:text-left text-center mb-10 mx-4">
+      <!-- part1 of categories -->
+      <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+        <nav class="list-none mb-10 ">
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">LifeHack</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">About Us</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Wall of Love</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Blog</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">The LifeHack Show</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Shop</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Write For Us</a>
+          </li>
+        </nav>
+      </div>
+       <!-- part2 of categories -->
+      <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Tackling Distractions</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Boosting Focus</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Smart Prioritization</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Effective Planning & <br> Scheduling</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Wise Delegation</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Ending Procastination</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Achieving Goals</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Lasting Motivation</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Restoring Energy</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Work Life Balance</a>
+          </li>
+        </nav>
+      </div>
+       <!-- part3 of categories -->
+      <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Products</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Membership</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Time & Life Assessment</a>
+          </li>
+        </nav>
+      </div>
+       <!-- part4 of categories -->
+      <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Community</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Login In</a>
+          </li>
+        </nav>
+      </div>
+       <!-- part5 of categories -->
+      <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Contact Us</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">FAQ</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Facebook</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Instagram</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">You Tube</a>
+          </li>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-black">
+    <div class="container mx-auto py-4 px-5 flex justify-center flex-wrap sm:flex-row">
+      <p class="text-gray-500 flex flex-col items-center text-sm text-center sm:text-left">
+        <a href="https://twitter.com/knyttneve" target="_blank" rel="noopener noreferrer"> <span class="text-gray-600 ml-1  hover:text-[#EEBC5E]">Terms & Conditions</span> - <span class="text-gray-600 ml-1  hover:text-[#EEBC5E]">Privacy Policies</span></a> <br>
+        <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm">© 2005 - 2023 Lifehack · All Rights Reserved</span>
+      </p>
+      </div>
+  </div>
+</footer>
+</div>
+
+
+</body>
+</html>
+
+
+
+

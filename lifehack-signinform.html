@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeHack Sign-In</title>
+</head>
+<style>
+    *{
+        margin:0%;
+        padding:0%;
+        box-sizing: border-box;
+    }
+
+    body{
+        width:100%;
+        height:100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size:18px;
+    }
+    .logo{
+        width:390px;
+        height:70px;
+        margin-top: 30px;
+        margin-right: 10px;
+        background-color:#2a6354;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    label{
+         font-size:13px;
+         font-weight:600;
+    }   
+
+    input{
+       width:300px; 
+       height:35px;
+       border-radius:5px;
+       padding-left: 5px;
+       border: 1px solid gray;
+       margin-top:5px;
+    }
+
+    .btn button{
+        width: 300px;
+        height: 35px;
+        background-color:#ee7546;
+        border-radius: 7px;
+        margin-top: 15px;
+        font-weight: 800;
+    }
+
+    .para{
+        font-size: 13px;
+        margin-top: 30px;
+    }
+
+    .help{
+        margin-top: 15px;
+        font-size:14px;
+    }
+
+    .anchor a{
+    color:#3aaa8c;
+    text-decoration: none;
+   }
+
+   
+   .anchor a:hover{
+    color:orangered;
+    text-decoration:underline;
+   }
+
+  .btn1 button{
+    width:400px;
+    height:35px;
+    border-radius:10px;
+    margin-top:20px;
+    border:2px solid rgb(194, 188, 188);
+  }
+
+   
+  .copyright{
+    width:100%;
+    height:80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:35px;
+    font-size:12px;
+    border-top:2px solid rgb(235, 231, 231);
+   }
+
+   .nav-footer{
+    width:100%;
+    height:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap:20px;
+   }
+
+   .nav2{
+    width:100%;
+    height:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(95, 90, 90);
+    gap:10px;
+   }
+
+</style>
+<body>
+    <div class="logo"><img src="./logo.png" alt="" style="width:250px;height:80px;"></div>
+    <form action="" style="width:400px;margin-top:30px; height:300px; border-radius: 10px; display: flex; flex-direction: column; border: 1px solid rgb(196, 194, 194); padding: 25px; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        <h2 style="margin-bottom: 20px; font-weight: 500;">Sign in </h2>
+        <label for="email"> Email or Mobile Phone Number</label>
+        <input type="text" name="" id="email" placeholder="Enter your mobile phone number or email">
+        <div class="btn"><button>Continue</button></div>
+        <div class="para anchor"><p>By Continuing, you agree to Life Hack's <br><a href="">Conditions of Use</a> and <a href="">Privacy Notice.</a></p></div>
+        <div class="help anchor">
+          <a href=""> > Need help? </a>
+        </div>
+    </form>
+
+    <pre style="font-weight:500; display: flex; margin-top:30px;">------------<span>New to Life Hack<span>------------</pre>
+        <div class="btn1"><button><a href="./lifehack-SignUpform.html" style="text-decoration: none; color: black;">Create your Life Hack's account</a></button></div>
+
+        <div class="copyright">
+            <div class="nav-footer anchor">
+              <span class="decor"><li><a href="">Conditions of Use</a></li></span>
+                <span class="decor"><li><a href="">Privacy Notice</a></li></span>
+                <span class="decor"><li><a href="">Your Ads Privacy Choices</a></li></span>
+            </div>
+            <div class="nav2"><i class="fa-regular fa-copyright" style="color:rgb(99, 96, 96);"></i>All copyright Reserved to LifeHack.com,Inc or its Oraganization</div>
+          </div>
+
+</body>
+</html>

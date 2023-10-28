@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeHack Membership-Products</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="./jquery-3.7.1.min.js"></script>
+</head>
+<body class="mx-auto container">
+  <div class="mx-auto container w-full">
+    
+  
+    <!-- 1.NavBar Section...!!! -->
+  <header class="h-auto bg-[#2a6354] flex flex-col ">
+    <div class="h-28 w-full bg-[#2a6354] flex justify-between text-white font-['Barlow', sans-serif] text-1xl px-5 items-center">
+        <a href="" class="text-2xl md:p-5 lg:p-7"><img class="h-16 w-auto" src="./logo.png" alt=""></a>
+        <div class=" items-center lg:text-xl p-5 md:text-sm hidden md:flex">
+          <div class="flex"> <a href="./timeflowinmotion.html" class=" hover:text-[#EEBC5E] h-6 flex items-center lg:px-5 md:px-2">Start Here </a> <div id="arrow1"><i class="fa-solid fa-chevron-down text-sm"></i></div></div>             <a href="./AchievingGoals.html" class=" hover:text-[#EEBC5E] h-6 flex-col items-center lg:px-5 md:px-2">Resources</a>
+          <a href="./Solutios-timeflow.html" class=" hover:text-[#EEBC5E] h-6 flex-col items-center lg:px-5 md:px-2">Solutions</a>
+          <a href="./lifehackproducts.html" class=" hover:text-[#EEBC5E] h-6 flex-col items-center lg:px-5 md:px-2">Products</a>
+          <a href="./pricinglifehack.html" class=" hover:text-[#EEBC5E] h-6 flex-col items-center lg:px-5 md:px-2">Pricing</a>
+         <a href="./lifehack-SignUpform.html"><button class="w-28 h-11 bg-black text-[#EEBC5E] font-semibold hover:bg-[#4e4e4d]">Join Now</button></a> 
+        </div>
+        <button class="md:hidden" id="btn"><i class="fa-solid fa-bars text-2xl"></i></button>
+  </div>
+
+  <!-- Hero-Img Section After Navbar -->
+
+  <section class=" body-font overflow-hidden h-auto">
+    <div class="container mx-auto mt-10">
+      <div class="lg:w-[1024px] mx-auto flex flex-wrap ">
+        <div class="w-[375px] h-auto 
+         p-[30px] flex-col justify-center items-center sm:m-auto ">
+          
+            <!-- div for heading in navbar...... -->
+           <div class="w-[375px]   h-auto mt-2  text-5xl font-serif flex  px-5  font-medium text-[#EEBC5E]">LifeHack <br> Membership</div>
+           <!-- div for para in navbar after navbar...... -->
+            <div class="w-[375px]  h-auto p-5 text-xl font-sans flex justify-center text-white"><p>A dedicated app solution combined with ready-to-go action blueprints, expert guidance, premium courses & skills training to rescue your time and reclaim your life.  All included with Lifehack Membership.</p></div>
+       </div>
+      <div class="lg:w-[500px] p-[30px] md:m-auto sm:m-auto text-black ">
+ <!-- div for img --> 
+    <div class="h-[350px] w-[600px] "> <img class="h-[350px] w-[635px] " src="./img1.png" alt=""> </div> 
+  </div> 
+  </div>
+    </div>
+  </section>
+
+  </header>
+
+    <!-- hidden slide for start Here of navbar -->
+    <div id="down-slide1" class="w-[210px] h-[220px] bg-black xl:ml-[550px] lg:ml-[280px] md:ml-[230px] mt-[-480px] text-white absolute p-2 px-5 hidden ">
+       <a href="" class="hover:text-[#EEBC5E]">The Time/Life Assessment </a> <br> <br>
+       <a href="" class="hover:text-[#EEBC5E]">The Time Flow System</a> <br> <br>
+       <a href="./timeflowinmotion.html" class="hover:text-[#EEBC5E]">Time Flow in Motion</a> <br> <br>
+       <a href="" class="hover:text-[#EEBC5E]">Mastering Your Time</a>  
+    </div>
+      <!-- hidden navbar for menu button -->
+    <div class="h-[420px] container text-white absolute bg-[#2a6354] mx-auto hidden" id="menu">
+      <div class="flex justify-between"><a href="./timeflowinmotion.html" class="block hover:text-[#EEBC5E] pl-5 py-5 p-6">Start Here</a><div id="arrow" class="mr-5"><i class="fa-solid fa-chevron-down text-sm"></i></div></div>
+      <!-- hidden slide for start here of hidden navbar -->
+      <div id="down-slide" class="w-full h-auto bg-[#1d4a40] text-white p-2 px-5 hidden">
+        <a href="" class="hover:text-[#EEBC5E]">The Time/Life Assessment </a> <br> <br>
+        <a href="" class="hover:text-[#EEBC5E]">The Time Flow System</a> <br> <br>
+        <a href="./timeflowinmotion.html" class="hover:text-[#EEBC5E]">Time Flow in Motion</a> <br> <br>
+        <a href="" class="hover:text-[#EEBC5E]">Mastering Your Time</a>  
+     </div>
+      <a href="./AchievingGoals.html" class="block hover:text-[#EEBC5E] pl-5 py-5">Resources</a>
+      <a href="./Solutios-timeflow.html" class="block hover:text-[#EEBC5E] pl-5 py-5">Solutions</a>
+      <a href="lifehackproducts.html" class="block hover:text-[#EEBC5E] pl-5 py-5">Products</a>
+      <a href="./pricinglifehack.html" class="block hover:text-[#EEBC5E] pl-5 py-5">Pricing</a>
+     <a href="./lifehack-SignUpform.html"> <button class="flex items-center p-3 w-full h-14 bg-black text-[#EEBC5E] font-semibold hover:bg-[#4e4e4d]">Join Now <i class="fa-solid fa-arrow-right ml-3"></i></button></a>
+    </div>
+
+
+    <script>
+
+      // script for hidden navbar
+       $(document).ready(function(){
+        $('#btn').click(function(){
+        $('#menu').slideToggle();
+        abc();    
+        })
+        function abc() {
+        var a ='<i class="fa-solid fa-xmark text-2xl"></i>';
+        var b ='<i class="fa-solid fa-bars text-2xl"></i>';
+
+        if($('#btn').html()===a)
+        {
+            $('#btn').html(b);
+        }
+        
+        else{
+            $('#btn').html(a);
+        }
+        }
+       });
+
+        //  script for hidden slide for start here of hidden navbar
+       $(document).ready(function(){
+        $('#arrow').click(function(){
+        $('#down-slide').slideToggle();
+        abc();    
+        })
+        function abc() {
+        var c ='<i class="fa-solid fa-chevron-up"></i>';
+        var d ='<i class="fa-solid fa-chevron-down"></i>';
+
+        if($('#arrow').html()===c)
+        {
+            $('#arrow').html(d);
+        }
+        
+        else{
+            $('#arrow').html(c);
+        }
+        }
+       });
+
+          //  script for hidden slide for start here of navbar
+             $(document).ready(function(){
+            $('#arrow1').click(function(){
+              $('#down-slide1').toggle();
+            });
+           });
+      
+    </script>
+
+
+
+<!-- main div for all divs after navbar -->
+<div class="w-full h-auto flex-col justify-center items-center container lg:w-full md:w-[760px] sm:w-[640px] mx-auto"> 
+    <!-- div of para1 -->
+    <div class="w-[720px] h-auto bg-white mt-14 container m-auto p-3 flex flex-col items-center">
+        <h5 class="text-[#ee7546] text-lg">Rescue and Reclaim Your Time</h5>
+     <!-- div for heading before para1 -->
+     <h3 class="text-4xl font-serif font-medium mb-2 mt-2">Start with the Time Flow System</h3>
+     <p class="text-center">LifeHack's simple and pragmatic time/life solution embraces the chaotic nature of life, unexpected obstacles, and the disconnect between using traditional tools and effectively managing your time. The Time Flow System fills the gap by embracing the reality of time and providing a practical + pragmatic solution.</p> 
+    </div>
+    <!-- div for learn more button -->
+    <div class=" flex justify-center items-center mt-5">
+        <button class=" flex justify-center items-center w-auto p-3 h-auto bg-[#ee7546] rounded-md hover:bg-[#bd6847] hover:text-[#EEBC5E] text-white  text-xl">Learn More</span></button></div>
+           <!-- div for pic3.... -->
+   <div class=" p-14 m-auto"><img class="" src="./img2.png" alt=""></div>
+   <!-- div of para2 -->
+   <div class="w-[720px] h-auto bg-white mt-5 m-auto p-3 flex flex-col items-center">
+    <h5 class="text-[#ee7546] text-lg">Actions at Your Fingertips</h5>
+ <!-- div for heading before para2 -->
+ <h3 class="text-4xl font-serif font-medium mb-2 mt-2">Ready-To-Go Resources</h3>
+ <p class="text-center">Planning can be time-consuming when you're unsure where to begin. Ready-to-Go Resources simplify the process, offering instant access to ideas, activities, and blueprints you can apply immediately—no need to reinvent the wheel.</p> 
+</div>
+
+<!-- three carts section1 -->
+<section class="text-gray-600 body-font">
+    <div class="container px-16 py-14 mx-auto">
+      <div class="flex flex-wrap -m-4">
+
+        <!-- cart1 -->
+        <div class="p-4 md:w-1/3">
+          <div class="h-full text-black rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="./pic9.png" alt="blog">
+            <div class="p-6">
+              <h1 class=" text-3xl font-serif font-medium mb-3">Action Recipes</h1>
+              <p class="leading-relaxed text-md mb-3 line-clamp-5">A treasure trove of problem-solving blueprints and action plans for everyday situations, eliminating the need to start from scratch. Streamline your decision-making process, save valuable time, and confidently navigate various scenarios with ease. microdosing tousled waistcoat.</p>
+              <div class="flex items-center flex-wrap ">
+                <a class="text-white p-2 bg-[#ee7546] rounded-md inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <!-- cart2 -->
+        <div class="p-4 md:w-1/3">
+          <div class="h-full text-black rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="./pic10.png" alt="blog">
+            <div class="p-6">
+              <h1 class=" text-3xl font-serif font-medium mb-3">Mindful Audio</h1>
+              <p class="leading-relaxed text-md mb-3 line-clamp-5">A toolkit of mindful exercises to overcome mental roadblocks across a variety of everyday topics & challenges, enhance focus, and be in an "always-optimal" state of mind. microdosing tousled waistcoat microdosing tousled waistcoat.</p>
+              <div class="flex items-center flex-wrap">
+                <a class="text-white p-2 bg-[#ee7546] rounded-md inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <!-- cart3 -->
+        <div class="p-4 md:w-1/3">
+          <div class="h-full text-black rounded-lg overflow-hidden">
+            <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="./pic11.png" alt="blog">
+            <div class="p-6">
+              <h1 class=" text-3xl font-serif font-medium mb-3 line-clamp-5">Action Summaries</h1>
+              <p class="leading-relaxed text-md mb-3">Essential insights and actionable steps from global experts to fast track your time and productivity. Expertly prepared and thoughtfully curated for effortless assimilation.</p>
+              <div class="flex items-center flex-wrap ">
+                <a class="text-white p-2 bg-[#ee7546] rounded-md inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- div of para3 -->
+   <div class="w-[720px] h-auto bg-white m-auto p-3 flex flex-col items-center">
+ <!-- div for heading before para3 -->
+ <h3 class="text-4xl font-serif font-medium mb-2 mt-2">Digital Primer Handbooks</h3>
+ <p class="text-center">Your comprehensive guides to achieving immediate results in key areas of life. Whether you need instant motivation, a holistic life framework, or accelerated learning techniques, these handbooks provide actionable insights to empower your journey.</p> 
+</div>
+   
+   <!-- three carts section2 -->
+<section class="text-gray-600 body-font">
+    <div class="container px-16 py-14 mx-auto">
+      <div class="flex flex-wrap -m-4">
+
+        <!-- cart1 -->
+        <div class="p-4 md:w-1/3">
+          <div class="h-full text-black rounded-lg overflow-hidden">
+            <img class="h-auto w-full object-cover object-center" src="./img3.png" alt="blog">
+            <div class="p-6">
+           
+              <div class="flex items-center justify-center flex-wrap ">
+                <a class="text-white p-2 bg-[#ee7546] rounded-md inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <!-- cart2 -->
+        <div class="p-4 md:w-1/3">
+          <div class="h-full text-black rounded-lg overflow-hidden">
+            <img class="h-auto w-full object-cover object-center" src="./img4.png" alt="blog">
+            <div class="p-6">
+              <div class="flex items-center justify-center flex-wrap">
+                <a class="text-white p-2 bg-[#ee7546] rounded-md inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <!-- cart3 -->
+        <div class="p-4 md:w-1/3">
+          <div class="h-full text-black rounded-lg overflow-hidden">
+            <img class="h-auto w-full p-6 object-cover object-center" src="./img5.jpeg" alt="blog">
+            <div class="p-6">
+              <div class="flex items-center justify-center flex-wrap ">
+                <a class="text-white p-2 bg-[#ee7546] rounded-md inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+   <!-- div of para4 -->
+   <div class="w-[720px] h-auto bg-white m-auto p-3 flex flex-col items-center">
+    <h5 class="text-[#ee7546] text-lg">Exclusive Expert Guidance</h5>
+ <!-- div for heading before para4 -->
+ <h3 class="text-4xl font-serif font-medium mb-2 mt-2">Flexible Skill Upgrade Training</h3>
+ <p class="text-center">Amplify your impact. Explore our premium training library for self-paced learning, or connect with seasoned mentors for personalized guidance when you need it.</p> 
+</div>
+
+  <!-- div of para5 -->
+  <div class="w-[720px] h-auto bg-white m-auto p-3 flex flex-col items-center">
+    <!-- div for heading before para5 -->
+    <h3 class="text-3xl font-serif font-medium mb-2 mt-5">Interactive Coaching & Support</h3>
+    <p class="text-center">Connect, get guidance, and tailored-for-you personal insights directly from our LifeHack coaches.</p> 
+   </div>
+
+  <!-- div for img6.... -->
+  <div class=" p-14 m-auto"><img class="" src="./img6.png" alt=""></div>
+   <!-- heading -->
+  <h3 class="text-3xl font-serif flex justify-center items-center font-medium mb-2 mt-5">Interactive Coaching & Support</h3>
+
+<!-- six cart section    -->
+<section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap m-auto justify-center">
+
+        <!-- cart1 -->
+        <div class="lg:w-[350px] md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="./img7a.jpeg">
+          </a>
+        </div>
+
+         <!-- cart2 -->
+        <div class="lg:w-[350px] md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="./img7b.jpeg">
+          </a>
+        </div>
+
+         <!-- cart3 -->
+        <div class="lg:w-[350px] md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="./img7c.png">
+          </a>
+        </div>
+
+         <!-- cart4 -->
+        <div class="lg:w-[350px] md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="./img7d.png">
+          </a>
+        </div>
+
+         <!-- cart5 -->
+        <div class="lg:w-[350px] md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="./img7e.png">
+          </a>
+        </div>
+
+         <!-- cart6 -->
+        <div class="lg:w-[350px] md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="./img7f.png">
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+   
+    <!-- div of para5 -->
+    <div class="w-[720px] h-auto bg-white m-auto p-3 flex flex-col items-center">
+        <h5 class="text-[#ee7546] text-lg">Turbocharge Your Progress</h5>
+     <!-- div for heading before para5 -->
+     <h3 class="text-4xl font-serif font-medium mb-2 mt-2">A.I. Copilots to Multiply Your Impact</h3>
+     <p class="text-center">Stop wasting time being stuck at the ideas, planning, or action stages. Our A.I. Assistants shoulder the load by brainstorming, suggesting North Stars, proposing initiatives, and presenting instant, relevant, and doable recommendations.</p> 
+    </div>
+   
+   <!-- div for img6.... -->
+  <div class=" p-14 m-auto"><img class="" src="./img8.png" alt=""></div>
+   
+     <!-- div for Start for just $29 -->
+<div class="w-full h-auto p-[40px] bg-[#d2ced4] text-lg flex flex-col justify-center items-center"> 
+    <h3 class="text-3xl  font-serif flex justify-center items-center">Get Access To Everything Today</h3> 
+    <p class="mt-2">Start for just $29 per month (billed yearly)</p>
+    <div class=" flex justify-center items-center mt-5">
+      <button class=" flex flex-col justify-center items-center w-[320px] h-auto p-2 bg-[#ee7546] text-white 
+      rounded-md hover:bg-[#bd6847] hover:text-[#EEBC5E]"><span class="font-bold">Get LifeHack Membership</span> Risk-free 15-days refund period</button></div>
+    </div>
+   
+    </div> 
+
+
+<!-- Footer Section -->
+<footer class="text-white body-font bg-black">
+    <div class="container px-5 py-20 mx-auto">
+      <!-- main section of Categories -->
+      <div class="flex flex-wrap lg:justify-evenly md:text-left text-center mb-10 mx-4">
+        <!-- part1 of categories -->
+        <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+          <nav class="list-none mb-10 ">
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">LifeHack</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">About Us</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Wall of Love</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Blog</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">The LifeHack Show</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Shop</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Write For Us</a>
+            </li>
+          </nav>
+        </div>
+         <!-- part2 of categories -->
+        <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Tackling Distractions</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Boosting Focus</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Smart Prioritization</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Effective Planning & <br> Scheduling</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Wise Delegation</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Ending Procastination</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Achieving Goals</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Lasting Motivation</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Restoring Energy</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Work Life Balance</a>
+            </li>
+          </nav>
+        </div>
+         <!-- part3 of categories -->
+        <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Products</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Membership</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Time & Life Assessment</a>
+            </li>
+          </nav>
+        </div>
+         <!-- part4 of categories -->
+        <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Community</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Login In</a>
+            </li>
+          </nav>
+        </div>
+         <!-- part5 of categories -->
+        <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Contact Us</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">FAQ</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Facebook</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Instagram</a>
+            </li>
+            <li>
+              <a class="text-white hover:text-[#EEBC5E] cursor-pointer">You Tube</a>
+            </li>
+          </nav>
+        </div>
+      </div>
+    </div>
+  
+    <div class="bg-black">
+      <div class="container mx-auto py-4 px-5 flex justify-center flex-wrap sm:flex-row">
+        <p class="text-gray-500 flex flex-col items-center text-sm text-center sm:text-left">
+          <a href="https://twitter.com/knyttneve" target="_blank" rel="noopener noreferrer"> <span class="text-gray-600 ml-1  hover:text-[#EEBC5E]">Terms & Conditions</span> - <span class="text-gray-600 ml-1  hover:text-[#EEBC5E]">Privacy Policies</span></a> <br>
+          <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm">© 2005 - 2023 Lifehack · All Rights Reserved</span>
+        </p>
+        </div>
+    </div>
+  </footer>
+</div>
+
+</body>
+</html>
