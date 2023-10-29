@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Solutions-Time Flow</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="./jquery-3.7.1.min.js"></script>
+</head>
+<body class="mx-auto container">
+  <div class="mx-auto container w-full">
+    
+ 
+    <!-- 1.NavBar Section...!!! -->
+  <header class="h-auto bg-[#2a6354] flex-col ">
+    <div class="h-28 w-full bg-[#2a6354] flex justify-between text-white font-['Barlow', sans-serif] text-1xl px-5 items-center">
+        <a href="" class="text-2xl md:p-5 lg:p-7"><img class="h-16 w-auto" src="./logo.png" alt=""></a>
+        <div class=" items-center lg:text-xl p-5 md:text-sm hidden md:flex">
+          <div class="flex"> <a href="./timeflowinmotion.html" class=" hover:text-[#EEBC5E] h-6 flex items-center lg:px-5 md:px-2">Start Here </a> <div id="arrow1"><i class="fa-solid fa-chevron-down text-sm"></i></div></div>             <a href="./AchievingGoals.html" class=" hover:text-[#EEBC5E] h-6 flex-col items-center lg:px-5 md:px-2">Resources</a>
+          <a href="./Solutios-timeflow.html" class=" hover:text-[#EEBC5E] h-6 flex-col items-center lg:px-5 md:px-2">Solutions</a>
+          <a href="lifehackproducts.html" class=" hover:text-[#EEBC5E] h-6 flex-col items-center lg:px-5 md:px-2">Products</a>
+          <a href="./pricinglifehack.html" class=" hover:text-[#EEBC5E] h-6 flex-col items-center lg:px-5 md:px-2">Pricing</a>
+          <a href="./lifehack-SignUpform.html"><button class="w-28 h-11 bg-black text-[#EEBC5E] font-semibold hover:bg-[#4e4e4d]">Join Now</button></a>
+        </div>
+        <button class="md:hidden" id="btn"><i class="fa-solid fa-bars text-2xl"></i></button>
+  </div>
+
+  <!-- Hero-Img Section After Navbar -->
+
+  <section class=" body-font overflow-hidden h-auto">
+    <div class="container mx-auto mt-10">
+      <div class="lg:w-[1024px] mx-auto flex flex-wrap ">
+        <div class="w-[375px] h-auto 
+         p-[30px] flex-col justify-center items-center sm:m-auto ">
+          
+            <!-- div for heading in navbar...... -->
+           <div class="w-[375px]   h-auto mt-2  text-4xl font-serif flex  px-5  font-medium text-[#EEBC5E]">Use Time Flows to Breakthrough The <br> Daily Grind</div>
+           <!-- div for para in navbar after navbar...... -->
+            <div class="w-[375px]  h-auto p-5 text-xl font-sans flex justify-center font-medium text-white"><p>Say goodbye to feeling trapped in the same  unproductive routine. With Time Flows, you can break free from stagnation, find renewed clarity, and conquer the overwhelming challenges that hold you back.</p></div>
+       </div>
+      <div class="lg:w-[500px] p-[30px] md:m-auto sm:m-auto text-black ">
+ <!-- div for img --> 
+    <div class="h-[350px] w-[600px] "> <img class="h-[350px] w-[635px] " src="./pic1.png" alt=""> </div> 
+  </div> 
+  </div>
+    </div>
+  </section>
+
+  </header>
+
+    <!-- hidden slide for start Here of navbar -->
+    <div id="down-slide1" class="w-[210px] h-[220px] bg-black xl:ml-[550px] lg:ml-[280px] md:ml-[230px] mt-[-480px] text-white absolute p-2 px-5 hidden ">
+       <a href="" class="hover:text-[#EEBC5E]">The Time/Life Assessment </a> <br> <br>
+       <a href="" class="hover:text-[#EEBC5E]">The Time Flow System</a> <br> <br>
+       <a href="./timeflowinmotion.html" class="hover:text-[#EEBC5E]">Time Flow in Motion</a> <br> <br>
+       <a href="" class="hover:text-[#EEBC5E]">Mastering Your Time</a>  
+    </div>
+      <!-- hidden navbar for menu button -->
+    <div class="h-[420px] container text-white absolute bg-[#2a6354] mx-auto hidden" id="menu">
+      <div class="flex justify-between"><a href="./timeflowinmotion.html" class="block hover:text-[#EEBC5E] pl-5 py-5 p-6">Start Here</a><div id="arrow" class="mr-5"><i class="fa-solid fa-chevron-down text-sm"></i></div></div>
+      <!-- hidden slide for start here of hidden navbar -->
+      <div id="down-slide" class="w-full h-auto bg-[#1d4a40] text-white p-2 px-5 hidden">
+        <a href="" class="hover:text-[#EEBC5E]">The Time/Life Assessment </a> <br> <br>
+        <a href="" class="hover:text-[#EEBC5E]">The Time Flow System</a> <br> <br>
+        <a href="./timeflowinmotion.html" class="hover:text-[#EEBC5E]">Time Flow in Motion</a> <br> <br>
+        <a href="" class="hover:text-[#EEBC5E]">Mastering Your Time</a>  
+     </div>
+      <a href="./AchievingGoals.html" class="block hover:text-[#EEBC5E] pl-5 py-5">Resources</a>
+      <a href="./Solutios-timeflow.html" class="block hover:text-[#EEBC5E] pl-5 py-5">Solutions</a>
+      <a href="./lifehackproducts.html" class="block hover:text-[#EEBC5E] pl-5 py-5">Products</a>
+      <a href="./pricinglifehack.html" class="block hover:text-[#EEBC5E] pl-5 py-5">Pricing</a>
+      <a href="./lifehack-SignUpform.html"><button class="flex items-center p-3 w-full h-14 bg-black text-[#EEBC5E] font-semibold hover:bg-[#4e4e4d]">Join Now <i class="fa-solid fa-arrow-right ml-3"></i></button></a>
+    </div>
+
+
+    <script>
+
+      // script for hidden navbar
+       $(document).ready(function(){
+        $('#btn').click(function(){
+        $('#menu').slideToggle();
+        abc();    
+        })
+        function abc() {
+        var a ='<i class="fa-solid fa-xmark text-2xl"></i>';
+        var b ='<i class="fa-solid fa-bars text-2xl"></i>';
+
+        if($('#btn').html()===a)
+        {
+            $('#btn').html(b);
+        }
+        
+        else{
+            $('#btn').html(a);
+        }
+        }
+       });
+
+        //  script for hidden slide for start here of hidden navbar
+       $(document).ready(function(){
+        $('#arrow').click(function(){
+        $('#down-slide').slideToggle();
+        abc();    
+        })
+        function abc() {
+        var c ='<i class="fa-solid fa-chevron-up"></i>';
+        var d ='<i class="fa-solid fa-chevron-down"></i>';
+
+        if($('#arrow').html()===c)
+        {
+            $('#arrow').html(d);
+        }
+        
+        else{
+            $('#arrow').html(c);
+        }
+        }
+       });
+
+          //  script for hidden slide for start here of navbar
+             $(document).ready(function(){
+            $('#arrow1').click(function(){
+              $('#down-slide1').toggle();
+            });
+           });
+      
+    </script>
+
+<!-- Hero-Img Section After Navbar -->
+  <section class="text-gray-600 body-font overflow-hidden h-auto bg-[#ebcc5e]">
+      <div class="container mx-auto mt-10">
+        <div class="lg:w-full mx-auto flex flex-wrap">
+          <div class="lg:w-[500px] w-3/5 h-auto pl-10 lg:pr-10 lg:py-6 mb-6 lg:mb-0 lg:ml-[90px] p-[30px] flex justify-center items-center sm:m-auto ">
+             <!-- div for img --> 
+           <div class="h-auto w-[500px] p-[30px]  lg:ml-[160px] md:ml-[100px] sm:ml-[0px]"> <img class="h-auto w-[300px] md:w-[400px]" src="./pic2.png" alt=""> </div>
+       </div>
+        <div class="lg:w-[500px] pr-10 p-[30px] md:m-auto sm:m-auto text-black lg:mr-[190px] ">
+          <!-- div for heding in navbar...... -->
+     <div class="lg:w-[450px]   h-auto mt-2  text-3xl font-serif flex justify-center font-medium ">79% of professionals have <br> experienced burnout in their <br> current roles.</div>
+     <!-- div for para in navbar after navbar...... -->
+      <div class="lg:w-[450px]  h-auto mt-5 p-5 text-lg font-sans flex justify-center"><p>A staggering 63% attribute this to the lack of time <br> for focused work. Meanwhile, the average <br> professional dedicates <span class="font-bold"> 2.6 hours</span>, or <span class="font-bold">28% of their</span> <br> <span class="font-bold">workday</span>, just to email-related tasks.</p></div>
+    </div>   
+    </div>
+      </div>
+    </section>
+
+ 
+<!-- main div for all divs after navbar -->
+<div class="w-full h-auto flex-col justify-center items-center container lg:w-full md:w-[760px] sm:w-[640px] mx-auto"> 
+   <!-- div of para1 -->
+   <div class="w-[720px] h-auto bg-white mt-14 m-auto p-3 flex-col justify-center">
+    <!-- div for heading before para1 -->
+    <h3 class="text-3xl font-serif font-medium mb-2">Stop losing hours to <span class="font-bold">"Time Drift"</span></h3>
+    <p>It's a familiar story – Time Drift is when your focus is pulled repeatedly to the "next urgent thing". The problem? The list never ends. Before you know it, you've lost countless hours just treading water. With Time Flows, your North Star compass is always front and center, keeping your plans and actions constantly aligned.</p> 
+   </div>
+   <!-- div for pic3.... -->
+   <div class=" p-14 m-auto"><img class="" src="./pic3.png" alt=""></div>
+<!-- div of para2 -->
+<div class="w-[720px] h-auto bg-white mt-14 m-auto p-3 flex-col justify-center">
+  <!-- div for heading before para2 -->
+  <h3 class="text-3xl font-serif font-medium mb-2">Streamline with Action Recipe blueprints</h3>
+  <p><span class="font-bold">We pour hours into endless planning and sporadic actions.</span> It's the "busy bee" paradox – the more you do, the less you achieve. Time Flows cut through this pattern. Instead of reinventing the wheel every time, you collect libraries of ready-to-go Action Recipes aligned to your latest Initiatives.  Pair the optimal Action Recipe with each situation to break free from the cycle.</p> 
+ </div>
+  <!-- div for pic4.... -->
+  <div class=" p-14 m-auto"><img class="" src="./pic4.png" alt=""></div>
+  <!-- div of para3 -->
+<div class="w-[720px] h-auto bg-white mt-14 m-auto p-3 flex-col justify-center">
+  <!-- div for heading before para3 -->
+  <h3 class="text-3xl font-serif font-medium mb-2">Say goodbye to decision and priority paralysis</h3>
+  <p><span class="font-bold">When everything is equally important, nothing gets done.</span> Decision paralysis is one of the biggest time sinks. With the trinity of North Stars, Initiatives and Focus Blocks, you cut through the fog, stay aligned, and measure effort in terms of action, meaning, and energy.</p> 
+ </div>
+  <!-- div for pic5.... -->
+  <div class=" p-14 m-auto"><img class="" src="./pic5.png" alt=""></div>
+  <!-- div of para4 -->
+<div class="w-[720px] h-auto bg-white mt-14 m-auto p-3 flex-col justify-center">
+  <!-- div for heading before para4 -->
+  <h3 class="text-3xl font-serif font-medium mb-2">Balance mismatched expectations and demands</h3>
+  <p><span class="font-bold">There's a smarter way to fulfill our responsibilities without overloading ourselves</span> up your Time Commitment IQ with concepts like the 5 D's of Delegation to assert control and shape circumstances to your advantage. Set clear boundaries and communicate expectations the smart way. Play the right cards to create win-win situations with skill and finesse.</p> 
+ </div>
+ <!-- div for pic6.... -->
+ <div class=" p-14 m-auto"><img class="" src="./pic6.png" alt=""></div>
+  <!-- heading of This is What You're Getting -->
+  <h2 class="text-5xl font-serif font-medium flex justify-center items-center">This is What You're Getting</h2>
+   <!-- div of para5 -->
+<div class="w-[720px] h-auto bg-white mt-14 m-auto p-3 flex-col justify-center">
+  <!-- div for heading before para5 -->
+  <h3 class="text-3xl font-serif font-medium mb-2 mt-10">The Time Flow System Primer</h3>
+  <p>Get up to speed with the foundational principles of the Time Flow System through our quick and engaging multi-part video primer. Dive into key concepts and applications in just a few minutes.</p> 
+ </div>
+  <!-- div for pic7.... -->
+  <div class=" p-14 m-auto"><img class="" src="./pic7.png" alt=""></div>
+   <!-- div of para6 -->
+<div class="w-[720px] h-auto bg-white mt-14 m-auto p-3 flex-col justify-center">
+  <!-- div for heading before para6 -->
+  <h3 class="text-3xl font-serif font-medium mb-2 mt-10">The Time Flow System App</h3>
+  <p>Our dynamic digital tool designed to help you take control of your time, guiding you towards effective scheduling, task management, and goal achievement. It's your personal time optimization headquarters.</p> 
+ </div>
+  <!-- div for pic8.... -->
+  <div class=" p-14 m-auto"><img class="" src="./pic8.png" alt=""></div>
+   <!-- div of para7 -->
+<div class="w-[720px] h-auto bg-white mt-14 m-auto p-3 flex flex-col justify-center items-center">
+  <!-- div for heading before para7 -->
+  <h3 class="text-3xl font-serif font-medium mb-2 mt-10">Relevant Ready-to-Go Content</h3>
+  <p>Exclusive, ready-to-use resources right at your fingertips.</p> 
+ </div>
+
+ <!-- hero-image section1 -->
+<section class=" body-font overflow-hidden h-auto">
+      <div class="container mx-auto mt-10">
+        <div class="lg:w-[1024px] mx-auto flex flex-wrap ">
+          <div class="w-[375px] h-auto 
+           p-[30px] flex-col justify-center items-center sm:m-auto ">
+            
+              <!-- div for heading in navbar...... -->
+             <div class="w-[375px]   h-auto mt-2  text-3xl font-serif flex  px-5  font-medium ">Action Recipes</div>
+             <!-- div for para in navbar after navbar...... -->
+              <div class="w-[375px]  h-auto mt-5 p-5 text-lg font-sans flex justify-center"><p>A treasure trove of problem-solving templates and action plans for everyday situations, eliminating the need to start from scratch. Streamline your decision-making process, save valuable time, and confidently navigate various scenarios with ease.</p></div>
+         </div>
+        <div class="lg:w-[500px] p-[30px] md:m-auto sm:m-auto text-black ">
+   <!-- div for img --> 
+      <div class="h-[350px] w-[600px] "> <img class="h-[350px] w-[635px] " src="./pic9.png" alt=""> </div> 
+    </div> 
+    </div>
+      </div>
+    </section>
+
+
+    <!-- hero-image section2 -->
+<section class=" body-font overflow-hidden h-auto">
+  <div class="container mx-auto mt-10">
+    <div class="lg:w-[1024px] mx-auto flex flex-wrap ">
+
+      <div class="lg:w-[500px] p-[30px] md:m-auto sm:m-auto text-black ">
+        <!-- div for img --> 
+          <div class="h-[350px] w-[600px] "> <img class="h-[350px] w-[635px] " src="./pic10.png" alt=""> </div> 
+        </div> 
+      <div class="w-[375px] h-auto 
+       p-[30px] flex-col justify-center items-center sm:m-auto ">
+        <!-- div for heading in navbar...... -->
+         <div class="w-[375px]   h-auto mt-2  text-3xl font-serif flex  px-5  font-medium ">Cultivate your mind to be at your best</div>
+         <!-- div for para in navbar after navbar...... -->
+          <div class="w-[375px]  h-auto mt-5 p-5 text-lg font-sans flex justify-center"><p>Go beyond typical breathing and mindful exercises. Tap into our toolkit of mindful exercises to overcome mental roadblocks in everyday situations. Tackle big questions that hold you back and discover answers that instantly boost your mental state.</p></div>
+     </div>  
+</div>
+  </div>
+</section>
+
+
+ <!-- hero-image section3 -->
+ <section class=" body-font overflow-hidden h-auto">
+  <div class="container mx-auto mt-10">
+    <div class="lg:w-[1024px] mx-auto flex flex-wrap ">
+      <div class="w-[375px] h-auto 
+       p-[30px] flex-col justify-center items-center sm:m-auto ">
+        
+          <!-- div for heading in navbar...... -->
+         <div class="w-[375px]   h-auto mt-2  text-3xl font-serif flex  px-5  font-medium ">Action Summaries</div>
+         <!-- div for para in navbar after navbar...... -->
+          <div class="w-[375px]  h-auto mt-5 p-5 text-lg font-sans flex justify-center"><p>Essential insights and actionable steps from global experts to fast track your time and productivity. Expertly prepared and thoughtfully curated for effortless assimilation.</p></div>
+     </div>
+    <div class="lg:w-[500px] p-[30px] md:m-auto sm:m-auto text-black ">
+<!-- div for img --> 
+  <div class="h-[350px] w-[600px] "> <img class="h-[350px] w-[635px] " src="./pic11.png" alt=""> </div> 
+</div> 
+</div>
+  </div>
+</section>
+
+  <!-- div for pic12.... -->
+  <div class=" p-16 m-auto flex justify-center"><img class="" src="./pic12.png" alt=""></div>
+
+   <!-- div of para7 -->
+<div class="w-[720px] h-auto bg-white mt-14 m-auto p-3 flex flex-col justify-center items-center">
+  <!-- div for heading before para7 -->
+  <h3 class="text-3xl font-serif font-medium mb-2 mt-10">Flexible Skill Upgrade Training
+</h3>
+  <p>Amplify your impact. Explore our premium training library for self-paced learning, or connect with seasoned mentors for personalized guidance when you need it.</p> 
+ </div>
+
+
+ <!-- hero-image section4 -->
+ <section class=" body-font overflow-hidden h-auto">
+  <div class="container mx-auto mt-10">
+    <div class="lg:w-[1024px] mx-auto flex flex-wrap ">
+      <div class="w-[375px] h-auto 
+       p-[30px] flex-col justify-center items-center sm:m-auto ">
+        
+          <!-- div for heading in navbar...... -->
+         <div class="w-[375px]   h-auto mt-2  text-3xl font-serif flex  px-5  font-medium ">Discover Your Time Truths</div>
+         <!-- div for para in navbar after navbar...... -->
+          <div class="w-[375px]  h-auto mt-5 p-5 text-lg font-sans flex justify-center"><p>Gain a newfound perspective and comprehensive understanding of the true nature of your time.  Dispel myths and blindspots causing you to lose time that you shouldn't be.</p></div>
+     </div>
+    <div class="lg:w-[500px] p-[30px] md:m-auto sm:m-auto text-black ">
+<!-- div for img --> 
+  <div class="h-[350px] w-[600px] "> <img class="h-[350px] w-[635px] " src="./pic13.png" alt=""> </div> 
+</div> 
+</div>
+  </div>
+</section>
+
+
+    <!-- hero-image section5 -->
+    <section class=" body-font overflow-hidden h-auto">
+      <div class="container mx-auto mt-10">
+        <div class="lg:w-[1024px] mx-auto flex flex-wrap ">
+    
+          <div class="lg:w-[500px] p-[30px] md:m-auto sm:m-auto text-black ">
+            <!-- div for img --> 
+              <div class="h-[350px] w-[600px] "> <img class="h-[350px] w-[635px] " src="./pic14.png" alt=""> </div> 
+            </div> 
+          <div class="w-[375px] h-auto 
+           p-[30px] flex-col justify-center items-center sm:m-auto ">
+            <!-- div for heading in navbar...... -->
+             <div class="w-[375px]   h-auto mt-2  text-3xl font-serif flex  px-5  font-medium ">Eliminate Time Killers</div>
+             <!-- div for para in navbar after navbar...... -->
+              <div class="w-[375px]  h-auto mt-5 p-5 text-lg font-sans flex justify-center"><p>Uncover and understand the factors that steal your time, and take steps to eliminate their influence with the correct mindsets and strategic actions.</p></div>
+         </div>  
+    </div>
+      </div>
+    </section>
+
+    <!-- hero-image section6 -->
+ <section class=" body-font overflow-hidden h-auto">
+  <div class="container mx-auto mt-10">
+    <div class="lg:w-[1024px] mx-auto flex flex-wrap ">
+      <div class="w-[375px] h-auto 
+       p-[30px] flex-col justify-center items-center sm:m-auto ">
+        
+          <!-- div for heading in navbar...... -->
+         <div class="w-[375px]   h-auto mt-2  text-3xl font-serif flex  px-5  font-medium ">Strengthen Your Focus Impact</div>
+         <!-- div for para in navbar after navbar...... -->
+          <div class="w-[375px]  h-auto mt-5 p-5 text-lg font-sans flex justify-center"><p>Gain a comprehensive understanding of the importance of focus in harnessing your time's full potential. Identify and analyze the factors that diminish your focus, and acquire strategies to enhance and cultivate your focus ability.</p></div>
+     </div>
+    <div class="lg:w-[500px] p-[30px] md:m-auto sm:m-auto text-black ">
+<!-- div for img --> 
+  <div class="h-[350px] w-[600px] "> <img class="h-[350px] w-[635px] " src="./pic15.png" alt=""> </div> 
+</div> 
+</div>
+  </div>
+</section>
+
+
+  <!-- hero-image section7 -->
+  <section class=" body-font overflow-hidden h-auto">
+    <div class="container mx-auto mt-10">
+      <div class="lg:w-[1024px] mx-auto flex flex-wrap ">
+  
+        <div class="lg:w-[500px] p-[30px] md:m-auto sm:m-auto text-black ">
+          <!-- div for img --> 
+            <div class="h-[350px] w-[600px] "> <img class="h-[350px] w-[635px] " src="./pic16.png" alt=""> </div> 
+          </div> 
+        <div class="w-[375px] h-auto 
+         p-[30px] flex-col justify-center items-center sm:m-auto ">
+          <!-- div for heading in navbar...... -->
+           <div class="w-[375px]   h-auto mt-2  text-3xl font-serif flex  px-5  font-medium ">Design Effective Actions & Get Consistent Results</div>
+           <!-- div for para in navbar after navbar...... -->
+            <div class="w-[375px]  h-auto mt-5 p-5 text-lg font-sans flex justify-center"><p>How to find the right actions and get the right results, consistently. Dive deeper into the realm of setting practical goals and achieving concrete outcomes. Uncover techniques to enhance effectiveness and foster a consistent track record of success.</p></div>
+       </div>  
+  </div>
+    </div>
+  </section>
+
+
+      <!-- hero-image section8 -->
+ <section class=" body-font overflow-hidden h-auto">
+  <div class="container mx-auto mt-10">
+    <div class="lg:w-[1024px] mx-auto flex flex-wrap ">
+      <div class="w-[375px] h-auto 
+       p-[30px] flex-col justify-center items-center sm:m-auto ">
+        
+          <!-- div for heading in navbar...... -->
+         <div class="w-[375px]   h-auto mt-2  text-3xl font-serif flex  px-5  font-medium ">Master Your Time Commitment IQ</div>
+         <!-- div for para in navbar after navbar...... -->
+          <div class="w-[375px]  h-auto mt-5 p-5 text-lg font-sans flex justify-center"><p>Navigate the art of handling time commitments in a smarty and savvy way, acknowledging that our time is often influenced by external expectations.</p></div>
+     </div>
+    <div class="lg:w-[500px] p-[30px] md:m-auto sm:m-auto text-black ">
+<!-- div for img --> 
+  <div class="h-[350px] w-[600px] "> <img class="h-[350px] w-[635px] " src="./pic17.png" alt=""> </div> 
+</div> 
+</div>
+  </div>
+</section>
+
+
+ <!-- hero-image section9 -->
+ <section class=" body-font overflow-hidden h-auto">
+  <div class="container mx-auto mt-10">
+    <div class="lg:w-[1024px] mx-auto flex flex-wrap ">
+
+      <div class="lg:w-[500px] p-[30px] md:m-auto sm:m-auto text-black ">
+        <!-- div for img --> 
+          <div class="h-[350px] w-[600px] "> <img class="h-[350px] w-[635px] " src="./pic18.png" alt=""> </div> 
+        </div> 
+      <div class="w-[375px] h-auto 
+       p-[30px] flex-col justify-center items-center sm:m-auto ">
+        <!-- div for heading in navbar...... -->
+         <div class="w-[375px]   h-auto mt-2  text-3xl font-serif flex  px-5  font-medium ">Create Time/Life Harmony</div>
+         <!-- div for para in navbar after navbar...... -->
+          <div class="w-[375px]  h-auto mt-5 p-5 text-lg font-sans flex justify-center"><p>Foster lasting happiness and fulfillment. Explore the art of meaningful self-care and re-ignite genuine motivation in your life.</p></div>
+     </div>  
+</div>
+  </div>
+</section>
+
+
+  <!-- div of para8 -->
+  <div class="w-[720px] h-auto bg-white mt-14 m-auto p-3 flex flex-col justify-center items-center">
+      <!-- div for 8:00 am ..... -->
+      <div class="w-full h-12 flex justify-center items-center mt-7"><button class="h-8 rounded-3xl text-white w-32 bg-[#2a6354]">All-Access</button></div>
+    <!-- div for heading before para7 -->
+    <h3 class="text-3xl font-serif font-medium mb-2 mt-3">Interactive Coaching & Support
+  </h3>
+    <p>Connect, get guidance, and tailored-for-you personal insights directly from our LifeHack coaches.</p> 
+   </div>
+
+   <!-- div for img --> 
+  <div> <img src="./pic19.png" alt=""> </div> 
+
+  <!-- div of para8 -->
+  <div class="w-[720px] h-auto bg-white mt-14 m-auto p-3 flex flex-col justify-center items-center"> 
+  <!-- div for heading before para7 -->
+  <h3 class="text-xl font-sans font-bold mb-1 ">New Monthly & Weekly Workshops with Live Support</h3>
+  <h3 class="text-xl font-sans font-bold mb-1">Questions That Get Answers</h3>
+ <h3 class="text-xl font-sans font-bold mb-1">Positive Accountability And Support</h3>
+</div>
+
+<!-- div1 for Start for just $29 -->
+<div class="w-full h-auto p-[40px] bg-[#d2ced4] text-lg flex flex-col justify-center items-center"> 
+  <h3 class="text-3xl  font-serif flex justify-center items-center">Break from Your Daily Grind</h3> 
+  <p class="mt-2">Start for just $29 per month (billed yearly)</p>
+  <div class=" flex justify-center items-center mt-5">
+    <button class=" flex flex-col justify-center items-center w-[320px] h-auto p-3 bg-[#ee7546] text-white rounded-lg hover:bg-[#bd6847] hover:text-[#EEBC5E]"><span class="font-bold">Get LifeHack Membership</span> Risk-free 15-days refund period</button></div>
+  </div>
+
+   <!-- div for img --> 
+   <div class="flex justify-center"> <img src="./pic20.png" alt=""> </div> 
+
+   
+  <!-- div for 15 days money back guarantee -->
+  <div class="w-full h-auto p-[40px] bg-[#2a6354] text-lg flex flex-col justify-center items-center">
+    <div class="w-4/5 h-60 bg-white flex justify-center items-center p-10">
+      <!-- right div -->
+      <div class="w-2/5 h-48 flex items-center">
+  <img src="./pic21.png" alt="">
+      </div>
+      <!-- left div -->
+      <div class="w-[700px] p-3 h-48 flex flex-col justify-center">
+        <h3 class="text-3xl font-serif font-medium">15-Day Money Back Guarantee</h3>
+        <p class="mt-3">You get a 15-day money back guarantee on your first subscription fee whether annual or monthly. If during this time you decide it’s not for you, just email us at <span class="font-bold">support@lifehack.org</span> and we'll give you a full refund.</p>
+      </div>
+    </div>
+     </div> 
+
+   <!-- div2 for Start for just $29 -->
+<div class="w-full h-auto p-[40px] bg-[#d2ced4] text-lg flex flex-col justify-center items-center"> 
+  <h3 class="text-3xl  font-serif flex justify-center items-center">Break from Your Daily Grind</h3> 
+  <p class="mt-2">Start for just $29 per month (billed yearly)</p>
+  <div class=" flex justify-center items-center mt-5">
+    <button class=" flex flex-col justify-center items-center w-[320px] h-auto p-3 bg-[#ee7546] text-white rounded-lg hover:bg-[#bd6847] hover:text-[#EEBC5E]"><span class="font-bold">Get LifeHack Membership</span> Risk-free 15-days refund period</button></div>
+  </div>
+
+
+
+
+</div>
+
+
+ <!-- Footer Section -->
+ <footer class="text-white body-font bg-black">
+  <div class="container px-5 py-20 mx-auto">
+    <!-- main section of Categories -->
+    <div class="flex flex-wrap lg:justify-evenly md:text-left text-center mb-10 mx-4">
+      <!-- part1 of categories -->
+      <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+        <nav class="list-none mb-10 ">
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">LifeHack</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">About Us</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Wall of Love</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Blog</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">The LifeHack Show</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Shop</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Write For Us</a>
+          </li>
+        </nav>
+      </div>
+       <!-- part2 of categories -->
+      <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Tackling Distractions</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Boosting Focus</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Smart Prioritization</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Effective Planning & <br> Scheduling</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Wise Delegation</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Ending Procastination</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Achieving Goals</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Lasting Motivation</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Restoring Energy</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Work Life Balance</a>
+          </li>
+        </nav>
+      </div>
+       <!-- part3 of categories -->
+      <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Products</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Membership</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Time & Life Assessment</a>
+          </li>
+        </nav>
+      </div>
+       <!-- part4 of categories -->
+      <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Community</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Login In</a>
+          </li>
+        </nav>
+      </div>
+       <!-- part5 of categories -->
+      <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Contact Us</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">FAQ</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Facebook</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Instagram</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-[#EEBC5E] cursor-pointer">You Tube</a>
+          </li>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-black">
+    <div class="container mx-auto py-4 px-5 flex justify-center flex-wrap sm:flex-row">
+      <p class="text-gray-500 flex flex-col items-center text-sm text-center sm:text-left">
+        <a href="https://twitter.com/knyttneve" target="_blank" rel="noopener noreferrer"> <span class="text-gray-600 ml-1  hover:text-[#EEBC5E]">Terms & Conditions</span> - <span class="text-gray-600 ml-1  hover:text-[#EEBC5E]">Privacy Policies</span></a> <br>
+        <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm">© 2005 - 2023 Lifehack · All Rights Reserved</span>
+      </p>
+      </div>
+  </div>
+</footer>
+</div>
+
+</body>
+</html>
+
+
