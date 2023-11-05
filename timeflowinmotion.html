@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Start Here: Time Flow in Motion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="./jquery-3.7.1.min.js"></script>
+</head>
+<body class="mx-auto container">
+  <div class="mx-auto container w-full">
+    
+  
+    <!-- 1.NavBar Section...!!! -->
+  <header class="h-auto bg-[#2a6354] flex-col ">
+    <div class="h-28 w-full bg-[#2a6354] flex justify-between text-white font-['Barlow', sans-serif] text-1xl px-5 items-center">
+        <a href="" class="text-2xl md:p-5 lg:p-7"><img class="h-16 w-auto" src="./logo.png" alt=""></a>
+        <div class=" items-center lg:text-xl p-5 md:text-sm hidden md:flex">
+          <div class="flex"> <a href="./timeflowinmotion.html" class=" hover:text-[#EEBC5E] h-6 flex items-center lg:px-5 md:px-2">Start Here </a> <div id="arrow1"><i class="fa-solid fa-chevron-down text-sm"></i></div></div>             <a href="./AchievingGoals.html" class=" hover:text-[#EEBC5E] h-6 flex-col items-center lg:px-5 md:px-2">Resources</a>
+          <a href="./Solutios-timeflow.html" class=" hover:text-[#EEBC5E] h-6 flex-col items-center lg:px-5 md:px-2">Solutions</a>
+          <a href="./lifehackproducts.html" class=" hover:text-[#EEBC5E] h-6 flex-col items-center lg:px-5 md:px-2">Products</a>
+          <a href="./pricinglifehack.html" class=" hover:text-[#EEBC5E] h-6 flex-col items-center lg:px-5 md:px-2">Pricing</a>
+         <a href="./lifehack-SignUpform.html"><button class="w-28 h-11 bg-black text-[#EEBC5E] font-semibold hover:bg-[#4e4e4d]">Join Now</button></a> 
+        </div>
+        <button class="md:hidden" id="btn"><i class="fa-solid fa-bars text-2xl"></i></button>
+  </div>
+
+  <!-- Hero-Img Section After Navbar -->
+  <div class="flex-col p-[40px] w-full h-auto">
+    <div class="flex justify-center items-center text-2xl font-bold p-2 text-[#cad8d4]">Start Here</div>
+    <h1 class="flex justify-center items-center text-5xl p-2 text-[#ebcc5e] font-serif">III.Time Flow in Motion:A Case Study</h1>
+    <p class="flex justify-center items-center text-[#cad8d4]">
+        LifeHack's Time Flow System is first and foremost a pragmatic tool for taking on life's toughest <br>
+         everyday hurdles. We're all about small wins and flexible strategies that work even in the most <br>
+          chaotic schedules. So, no matter how jam-packed your day seems, success is within reach. <br> <br>
+          In this section, we'll delve into a range of daily scenarios, demonstrating how it can address <br>
+         fundamental issues and pave the way for your success.
+        </p>
+        <p class="text-[#95afa4] flex justify-center items-center p-4">Read time: ~20 mins</p>
+  </div>
+  </header>
+
+    <!-- hidden slide for start Here of navbar -->
+    <div id="down-slide1" class="w-[210px] h-[220px] bg-black xl:ml-[550px] lg:ml-[280px] md:ml-[230px] mt-[-420px] text-white absolute p-2 px-5 hidden ">
+       <a href="" class="hover:text-[#EEBC5E]">The Time/Life Assessment </a> <br> <br>
+       <a href="" class="hover:text-[#EEBC5E]">The Time Flow System</a> <br> <br>
+       <a href="./timeflowinmotion.html" class="hover:text-[#EEBC5E]">Time Flow in Motion</a> <br> <br>
+       <a href="" class="hover:text-[#EEBC5E]">Mastering Your Time</a>  
+    </div>
+      <!-- hidden navbar for menu button -->
+    <div class="h-[420px] container text-white absolute bg-[#2a6354] mx-auto hidden" id="menu">
+      <div class="flex justify-between"><a href="./timeflowinmotion.html" class="block hover:text-[#EEBC5E] pl-5 py-5 p-6">Start Here</a><div id="arrow" class="mr-5"><i class="fa-solid fa-chevron-down text-sm"></i></div></div>
+      <!-- hidden slide for start here of hidden navbar -->
+      <div id="down-slide" class="w-full h-auto bg-[#1d4a40] text-white p-2 px-5 hidden">
+        <a href="" class="hover:text-[#EEBC5E]">The Time/Life Assessment </a> <br> <br>
+        <a href="" class="hover:text-[#EEBC5E]">The Time Flow System</a> <br> <br>
+        <a href="./timeflowinmotion.html" class="hover:text-[#EEBC5E]">Time Flow in Motion</a> <br> <br>
+        <a href="" class="hover:text-[#EEBC5E]">Mastering Your Time</a>  
+     </div>
+      <a href="./AchievingGoals.html" class="block hover:text-[#EEBC5E] pl-5 py-5">Resources</a>
+      <a href="./Solutios-timeflow.html" class="block hover:text-[#EEBC5E] pl-5 py-5">Solutions</a>
+      <a href="./lifehackproducts.html" class="block hover:text-[#EEBC5E] pl-5 py-5">Products</a>
+      <a href="./pricinglifehack.html" class="block hover:text-[#EEBC5E] pl-5 py-5">Pricing</a>
+     <a href="./lifehack-SignUpform.html"><button class="flex items-center p-3 w-full h-14 bg-black text-[#EEBC5E] font-semibold hover:bg-[#4e4e4d]">Join Now <i class="fa-solid fa-arrow-right ml-3"></i></button></a> 
+    </div>
+
+
+    <script>
+
+      // script for hidden navbar
+       $(document).ready(function(){
+        $('#btn').click(function(){
+        $('#menu').slideToggle();
+        abc();    
+        })
+        function abc() {
+        var a ='<i class="fa-solid fa-xmark text-2xl"></i>';
+        var b ='<i class="fa-solid fa-bars text-2xl"></i>';
+
+        if($('#btn').html()===a)
+        {
+            $('#btn').html(b);
+        }
+        
+        else{
+            $('#btn').html(a);
+        }
+        }
+       });
+
+        //  script for hidden slide for start here of hidden navbar
+       $(document).ready(function(){
+        $('#arrow').click(function(){
+        $('#down-slide').slideToggle();
+        abc();    
+        })
+        function abc() {
+        var c ='<i class="fa-solid fa-chevron-up"></i>';
+        var d ='<i class="fa-solid fa-chevron-down"></i>';
+
+        if($('#arrow').html()===c)
+        {
+            $('#arrow').html(d);
+        }
+        
+        else{
+            $('#arrow').html(c);
+        }
+        }
+       });
+
+          //  script for hidden slide for start here of navbar
+             $(document).ready(function(){
+            $('#arrow1').click(function(){
+              $('#down-slide1').toggle();
+            });
+           });
+      
+    </script>
+
+    <!-- Hero-Image Section -->
+    <div class="w-full h-auto flex-col justify-center items-center container lg:w-full md:w-[760px] sm:w-[640px] mx-auto mb-5">
+       <!-- div for 8:00 am ..... -->
+      <div class="w-full h-12 flex justify-center items-center mt-7"><button class="h-10 rounded-3xl text-white w-28 bg-[#7d7abd]">8:00 AM</button></div>
+       <!-- div for The Morning routine...... -->
+      <div class="w-full h-10 mt-2 text-3xl font-serif flex justify-center items-center font-medium text-[#2a6354]">The Morning Routine Dilemma: Finding Balance</div>
+         <!-- div for coffee image...... -->
+      <div class="mt-5  flex justify-center items-center container mx-auto"><img class=" w-[900px] h-[400px] rounded-xl shadow-gray-500 shadow-2xl" src="./coffee starthere.jpg" alt=""></div>
+       <!-- div for para1... -->
+     <div class="w-[720px] h-auto bg-white mt-14 m-auto p-3">
+    <p>You start each day with a meticulously planned morning routine. This routine is your anchor, <br>
+       believed to set the stage for a productive and fulfilling day ahead. You're determined and <br>
+        clear-minded with the expectation that your morning activities, including light exercise and a <br>
+        nourishing breakfast, will invigorate your body and mind. <br> <br>
+        You see this consistent routine is your secret weapon, aligning your mindset with the belief that <br>
+        self-care is an essential part of achieving success. <br> <br> 
+        <!-- heading for when reality hits -->
+        <h3 class="text-3xl font-serif font-medium mb-2">When Reality Hits...</h3> 
+        Things always get in the way.  Sometimes it's a sudden urgent work call or email.  Or your <br> 
+        spouse or kids needing your attention with something.  There's always something.  Your initial <br> 
+        determination gives way to frustration and a sense of being torn between self-care and other <br> 
+        responsibilities. The unexpected disruption disrupts your inner calm and challenges your <br> 
+        belief in the sanctity of your morning routine. <br> <br>
+        Caught between the need to address other demands and your commitment to self-care, you <br> 
+        reluctantly try to do both. This compromise leaves you dissatisfied, feeling like you've let <br> 
+        yourself down. Your morning routine, once a source of strength, now feels fragile, and you <br> 
+        find it difficult to regain the focus and serenity you once enjoyed. The conflict leaves you with <br> 
+        a sense of imbalance and frustration. <br> <br>
+         <!-- heading for in the time... -->
+        <h3 class="text-3xl font-serif font-medium mb-2">In The Time Flow System</h3> <br>
+        We don't set repetitive routines for the sake of having a routine. Everything is aligned towards <br> 
+        a goal. <br> <br>
+         <!-- heading for 1. the first thing we'd change -->
+        <h3 class="text-2xl font-serif mb-2">1. The first thing we'd change is to give yourself a solid North Star <br> target</h3> 
+        What are you trying to achieve in your Morning? <br>
+        <!-- unorder list  -->
+        <ul class="list-disc p-3">
+          <li>Better work life balance?</li>
+          <li>Healthier exercise and diet?</li>
+        </ul>
+        instead of having a fixed morning routine that tries to do lots of different things at once, the <br> 
+        keyword is to focus. Each morning your actions should be trying to make <span class="font-bold"> progress on <br>
+         something.</span> Here's an example of how using the Time Flow System would break it down: <br> <br>
+         <span class="font-bold">North Star:</span> "Maximize my mornings for health, energy and fitness" <br> <br>
+          <!-- heading for 2.the second step.. -->
+         <h3 class="text-2xl font-serif mb-2">2. The second step is to setup simple initiatives based on concrete <br>
+         areas of progress</h3> 
+         In the Time Flow App, our A.I. Copilot can immediately recommend some for you based on <br>
+          your North Star.  Here are some examples that we created: <br> <br>
+         <span class="font-bold"> Prioritizing Nutritious Breakfasts -</span> for collecting a variety of quick & healthy breakfast ideas <br> 
+          that can be prepared in 20 minutes. A growing list that you can experiment with to bring more <br> 
+          variation and life to your mornings. <br> <br>
+          <span class="font-bold">Creating a Positive Mindset Ritual -</span> ideas for various mindful sessions, breathing exercises, <br>
+           and light activities to eliminate morning brain fog, feel refreshed and clear your mind. <br> <br>
+           <span class="font-bold">Optimize Sleep Schedule -</span> ways to further optimize your sleep so that you always wake up <br> 
+           feeling rested and refreshed. Sometimes you need that extra 15 minutes of sleep. This <br> 
+           project is for collecting Action Recipes to give you more options for that. <br>
+      </p>
+    </div>
+     <!-- div for copilot1.... -->
+     <div class="mb-5"><img class="" src="./copilot-1.png" alt=""></div>
+      <!-- div for copilot2.... -->
+     <div class="mb-5"><img class="" src="./copilot-2.png" alt=""></div>
+       <!-- div for para2.... -->
+     <div class="w-[720px] h-auto bg-white mt-14 m-auto p-3">
+       <p>
+        Each of these is a different angle to achieve our North Star of maximizing mornings for <br>
+         health, energy and fitness. With this guiding goal as our compass, we can make sure that <br> 
+         every idea and action is aligned and worthwhile. <br> <br>
+         <span class="font-serif text-2xl">3. Gather Action Recipes that you can "drag & drop" into your <br> morning sessions</span> <br>
+       
+          These are ideas that you collect, refine and turn into ready-to-go action blueprints.  Each 
+          Action Recipe is specific: <br> 
+          <!-- unorder list  -->
+          <ul class="list-disc px-8 mt-3">
+          <li>It has a clear set of actions, steps or tasks</li>
+          <li>It has a clear amount of time needed</li>
+          <li>and it helps you make some sort of solid progress towards your milestones.</li>
+        </ul>
+      </p>
+     </div>
+     <!-- div for copilot3 -->
+     <div class="mt-5"><img class="" src="./copilot-3.png" alt=""></div>
+
+         <!-- div for para3.... -->
+         <div class="w-[720px] h-auto bg-white mt-14 m-auto p-3 mb-5">
+          <p>
+            When you have a bunch of well designed Action Recipes, the next step is easy.  You just have <br>
+             to pick which ones to execute and run. The magic of this is that <span class="font-bold">it's not set in stone</span>. Because <br>
+            life is chaos! But with the Time Flow System, you can just substitute one action recipe for <br>
+            another when unexpected things happen.  The most important thing is that you know that <br>
+            you're making progress regardless.  No regret, frustration, or half-effort compromises. <br> <br>
+            For example, if you find yourself particularly rushed one morning, you can pick 3 of the <br>
+            quickest actions from each of your initiatives and combine them into a new routine on the fly. <br>
+            If you have more time, you can change it up and focus more on your morning mental rituals. <br>
+            It's flexible! <br>
+         </p>
+        </div>
+
+        <!-- div for reclaim your time -->
+        <div class="w-full h-auto p-[40px] bg-[#d2ced4] flex-col"> 
+        <h3 class="text-3xl  font-serif flex justify-center items-center">Ready to Reclaim Your Time?</h3> 
+         <!-- div for button find out -->
+          <div class=" flex justify-center items-center mt-5">
+            <button class=" flex justify-center items-center w-72 h-10 bg-[#ee7546] rounded-lg hover:bg-[#bd6847] hover:text-[#EEBC5E]">Find Out About LifeHack All-Access</button></div>
+        </div>
+
+       <div class="w-full h-auto">
+         <!-- div for 8:00 am ..... -->
+      <div class="w-full h-12 flex justify-center items-center mt-7 p-[40px]"><button class="h-10 rounded-3xl text-white w-28 bg-[#7d7abd]">8:00 AM</button></div>
+       <!-- div for reclaim your time -->
+        <h3 class="text-4xl text-[#2a6354] font-serif flex justify-center items-center">Email Overload: The Daily Grind<h3> 
+        <!-- div for copilot4.... -->
+        <div class="mt-6 flex justify-center items-center container mx-auto"><img class=" w-[1000px] h-[470px] rounded-xl shadow-gray-500 shadow-2xl" src="./copilot-4.jpg" alt=""></div>
+        <!-- div for para4.... -->
+        <div class="w-[720px] h-auto bg-white mt-14 m-auto p-3 mb-5">
+          <p>
+            On average, we spend up to <span class="font-bold">4 hours a day</span> reading, writing, and managing emails, which is <br>
+             <span class="font-bold">more than half</span> the average workday. For most people, it starts as one of the first things you <br> 
+             do in the morning... and quickly becomes a part of your daily grind. <br><br>
+             If you care about your productivity, you've surely approached this with lofty goals.  Trying to <br>
+              find the perfect email system to achieve "inbox zero", keep tasks in check, and stay <br>
+              responsive and in control. <br><br> <br>
+               <!-- heading for when reality hits... -->
+              <h3 class="text-3xl font-serif font-medium mb-2">When Reality Hits...</h3> <br>
+              The daily reality of handling emails often brings unforeseen challenges. High email volumes <br> 
+              can quickly become overwhelming, causing stress. Balancing urgent messages with <br> 
+              important tasks can lead to a shift from strategic work to constant firefighting. <br>
+               Miscommunication due to the absence of tone and misunderstandings can lead to tension. <br>
+              Email becomes a whole job in of itself. <br> <br>
+               <!-- heading for in the time flow -->
+              <h3 class="text-3xl font-serif font-medium mb-2">In The Time Flow System</h3> <br>
+              Instead of simply setting aside time to process emails, we take a goal oriented mindset. <br>
+              Instead of treading water, we want to make progress with each email related session.  Here's <br> 
+               how you can make instant progress using the Time Flow System: <br> <br>
+                <!-- heading for 1.set an ambitious... -->
+              <h3 class="text-2xl font-serif font-medium mb-2">1. Set an ambitious target to reduce email time/effort by 50%</h3> <br>
+              Because 80% to 90% of your incoming email is simply not worth the time, attention and focus <br>
+              that you currently spend on it. A big ambitious target gives you a benchmark.  Just imagine <br>
+               how much time you'd save each day. <br> <br>
+                <!-- heading for 2.set two powerful... -->
+               <h3 class="text-2xl font-serif font-medium mb-2">2. Set two powerful initiatives to attack it from different angles:</h3> <br>
+               The first Initiative is called the <span class="font-bold">Inbox Simplicity Sprint,</span> with daily actions that's aimed at <span class="font-bold">just one 
+                thing: </span>helping you simplify incoming emails so that you can 
+                <!-- unorder list  -->
+                <ul class="list-disc px-7 mt-3">
+                  <li>Easily know which emails are important</li>
+                  <li>Which ones can wait</li>
+                  <li>And which ones you can get rid of</li>
+                </ul>
+                It's a simple system to that takes just 15 to 20 minutes a day to increasingly automate the <br>
+                 process of sorting, filtering and categorizing incoming emails.  At the end, this system should <br> 
+                 help you automatically sort, categorize and tag 80% of emails for you... constantly changing <br>
+                 to fit your needs. <br>
+                 </p>
+        </div>
+       </div>
+
+        <!-- div for copilot5.... -->
+     <div class="mb-5"><img class="" src="./copilot-5.png" alt=""></div>
+
+         <!-- div for para5.... -->
+         <div class="w-[720px] h-auto bg-white mt-14 m-auto p-3 mb-4">
+          <p>
+            The second Initiative is to <span class="font-bold">Streamline Your Communications,</span> to process and respond to <br> 
+            emails more efficiently, using less time and effort.  We can cut this down significantly with <br> 
+            just three simple strategies that can be done on a daily basis. <br> <br>
+             <!-- heading for 1.swift 5-steps.... -->
+            <h3 class="text-2xl font-serif mb-2">1. The Swift 5-Step Email Digest</h3> <br>
+            An easy 5-step process designed for lightning-speed email processing within 30 seconds. <br>
+             Effortlessly extract key information, and act promptly in half a minute or less. <br>
+             <!-- unorder list  -->
+             <ul class="list-disc px-8 py-3">
+              <li>Scan the Subject Line & Sender.</li>
+              <li>Read Opening and Action Items.</li>
+              <li>Check for Deadlines and Attachments.</li>
+              <li>Scan for Relevant Details.</li>
+              <li>Flag and Take Immediate Action.</li>
+             </ul>
+              <!-- heading for setup email messaging -->
+             <h3 class="text-2xl font-serif mb-2"> Setup Email Messaging Templates</h3> <br>
+             Schedule a fixed time each day to <span class="font-bold">create message templates </span>for common responses and <br>
+              email messages. Here are the Top 5 Cases: <br>
+             <br>
+             <!-- unorder list  -->
+             <ul class="list-disc px-8 py-3">
+              <li>Frequent Usage</li>
+              <li>Standard Procedures</li>
+              <li>Time-Sensitive Responses</li>
+              <li>Event Invitations or Confirmations</li>
+              <li>Recurring Inquiries</li>
+             </ul>
+          </p>
+         </div>
+             <!-- div for copilot6.... -->
+     <div class="mb-5"><img class="" src="./copilot-6.png" alt=""></div>
+         <!-- div for para6.... -->
+         <div class="w-[720px] h-auto bg-white mt-14 m-auto p-3 mb-4">
+          <p>
+             <!-- heading for 3. Leverage A.I.... -->
+            <h3 class="text-2xl font-serif mb-2">3. Leverage A.I. Communication Assistance</h3> <br>
+            Combine A.I. Copilots and message templates into a system the takes your communication <br>
+             efficiency and effectiveness to a new level. <br> <br>
+             A.I. communication assistance is like having a smart helper for your emails. It can provide <br>
+             writing suggestions and improvements, and help you shape your message the way you intend <br> 
+             to with better words and expression. <br><br>
+             Using these 3 initiatives as our base of action, you'll develop an increasingly automated and <br>
+             efficient email management system day by day. The great thing about this is that your system <br> 
+             will grow and evolve with your circumstances and needs, instead of being a fixed rigid <br> 
+             method that hinders your productivity. <br><br>
+          </p>
+           <!-- div for heading before div of copilot7 -->
+         <h3 class="text-2xl font-serif mb-2">Download the sample Action Recipe</h3>
+         <!-- div for copilot7.... -->
+        <div class="mb-5"><img src="./copilot-7.png" alt=""></div>
+         </div>
+          <!-- Outer div for heading & button -->
+        <div class="w-full h-auto p-[40px] bg-[#d2ced4] flex-col"> 
+             <!-- div for hesding -->
+          <h3 class="text-3xl  font-serif flex justify-center items-center">Break Free from Daily Grind</h3> 
+           <!-- div for button find out -->
+            <div class=" flex justify-center items-center mt-5">
+              <button class=" flex justify-center items-center w-72 h-10 bg-[#ee7546] rounded-lg hover:bg-[#bd6847] hover:text-[#EEBC5E]">Find Out About LifeHack All-Access</button></div>
+          </div>
+           <!-- div for 5:00 pm ..... -->
+      <div class="w-full h-12 flex justify-center items-center mt-7 p-[40px]"><button class="h-10 rounded-3xl text-white w-28 bg-[#7d7abd]">5:00 PM</button></div>
+      <!-- div for health sacrifice -->
+       <h3 class="text-4xl text-[#2a6354] font-serif flex justify-center items-center">Health Sacrifices: Stress Takes a Toll</h3> 
+         <!-- Outer div for copilot8 -->
+       <div class="w-[980px] h-auto bg-white mt-8 m-auto p-3 mb-4">
+         <!-- div for copilot8.... -->
+           <div class="mb-5"><img class="w-[980px] rounded-xl shadow-gray-500 shadow-2xl container xl:w-[980px] lg:w-[880px] md:w-[760px] sm:w-[550px] mx-auto" src="./copilot-8.jpg" alt=""></div>
+       </div>
+         <!-- div for para7.... -->
+         <div class="w-[720px] h-auto bg-white mt-14 m-auto p-3 mb-4">
+          <p>
+            In the beginning, your commitment to a healthy lifestyle is strong. You have a clear plan: <br>
+           regular exercise routines, balanced and nutritious meals, and an unwavering belief in the <br>
+           importance of long-term health and well-being. Your mindset is firmly rooted in the idea that <br> 
+           taking care of your physical health is an investment that will pay off in the long run. You have <br> 
+           high expectations for yourself in terms of maintaining this healthy lifestyle, and you expect to <br> 
+           reap the rewards of increased energy, vitality, and overall well-being. <br> <br>
+            <!-- heading for when reality hits -->
+            <h3 class="text-3xl font-serif font-medium mb-2">When Reality Hits...</h3> 
+            The demands of a stressful workweek present unexpected challenges. Long hours, tight <br> 
+            deadlines, and work-related pressures start to encroach on your carefully planned health <br> 
+            routines. <br><br>
+            The need to meet professional commitments sometimes forces you to neglect your health. <br> 
+            You start skipping your 5pm workout, grab fast food for convenience, or sacrificing sleep to <br> 
+            catch up on work. These compromises lead to a slippery slope as you start to make more and <br> 
+            more compromises.
+             <!-- heading for in the time flow.... -->
+             <h3 class="text-3xl font-serif font-medium mb-2">In The Time Flow System</h3>
+             Health and self-care routines are sprinkled throughout your day, no matter how busy or <br>
+             chaotic it seems. <br> <br>
+             The biggest areas to reclaim this is from your Time Gaps. This is the unaccounted-for time <br> 
+             lost between the cracks amidst daily activities. <span class="font-bold">Time Gaps devour a staggering 20% to 50% <br>
+            of your day.</span>  Left unchecked, they lead you back into the abyss of random activities – the 'busy <br> 
+            but mediocre' loop, where social media, distractions, and mindless tasks dominate your days. <br> <br>
+            So instead of relying on activities that require large fixed blocks of time, the strategy <br>
+           changes to focusing on lots of short and flexible progress sessions that deliver small wins <br>
+           throughout the day. <br> <br>
+           For example, we can immediately setup 3 initiatives to collect Action Recipes of flexible <br> 
+           exercises and stress relief sessions: <br> <br>
+           <!-- heading for 1. light streching..... -->
+           <h3 class="text-3xl font-serif font-medium mb-2">1. Light Stretching Routine</h3>
+           <!-- unorder list  -->
+           <ul class="list-disc py-3 px-7">
+            <li>Estimated Time: 10-15 minutes</li>
+            <li>Light stretching routines are designed to increase blood flow and improve flexibility. It <br>
+               helps reduce muscle stiffness and keeps your body fresh for more vigorous activities <br>
+               throughout the day.</li>
+           </ul>
+              <!-- heading for I. Neck stretches..... -->
+              <h3 class="text-2xl font-medium mt-2 text-[#7d7abd]">I. Neck Stretches (2 minutes):</h3>
+              <!-- unorder list  -->
+              <ul class="list-disc py-3 px-7">
+               <li>Slowly tilt your head to the right, feeling a gentle stretch on the left side of your neck</li>
+               <li>Hold for 15 seconds and repeat on the left side.</li>
+               <li>Slowly nod your head forward and backward, feeling the stretch along the back of your neck.</li>
+              </ul>
+               <!-- heading for II. shoulder rolls..... -->
+               <h3 class="text-2xl font-medium mt-2 text-[#7d7abd]">II. Shoulder Rolls (1 minute):</h3>
+               <!-- unorder list  -->
+               <ul class="list-disc py-3 px-7">
+                <li>Roll your shoulders backward in circular motions for 30 seconds.</li>
+                <li>Roll your shoulders forward in circular motions for another 30 seconds.</li>
+               </ul>
+                 <!-- heading for III. arms and chest streches..... -->
+                 <h3 class="text-2xl font-medium mt-2 text-[#7d7abd]">III. Arm and Chest Stretches (2 minutes):</h3>
+                 <!-- unorder list  -->
+                <ul class="list-disc py-3 px-7">
+                <li>Extend your right arm straight in front of you at shoulder height.</li>
+                <li>Use your left hand to gently pull your right fingers back towards you, stretching the arm.</li>
+                <li>Hold for 15 seconds and repeat on the left side.</li>
+                <li>Place your hands behind your back, interlace your fingers, and lift your arms slightly to <br> 
+                  stretch your chest.</li>
+                 </ul>
+                 <!-- heading for IV. Spine Twist (1 minute) -->
+                 <h3 class="text-2xl font-medium mt-2 text-[#7d7abd]">IV. Spine Twist (1 minute):</h3>
+                 <!-- unorder list  -->
+                <ul class="list-disc py-3 px-7">
+                <li>Sit on the edge of your bed or a chair with your feet flat on the floor.</li>
+                <li>Twist your torso to the right, placing your left hand on your right knee and your right <br> hand behind you.</li>
+                <li>Hold for 30 seconds and repeat on the left side.</li>
+                 </ul>
+                 <!-- heading for V. Forward Bend (1 minute) -->
+                 <h3 class="text-2xl font-medium mt-2 text-[#7d7abd]">V. Forward Bend (1 minute):</h3>
+                 <!-- unorder list  -->
+                <ul class="list-disc py-3 px-7">
+                <li>Stand with your feet hip-width apart.</li>
+                <li>Slowly bend forward from your hips, reaching towards your toes or the floor.</li>
+                <li>Hold the stretch for 30 seconds.</li>
+                 </ul>
+                  <!-- heading for VI. Hip Flexor Stretch (1 minute)-->
+                  <h3 class="text-2xl font-medium mt-2 text-[#7d7abd]">VI. Hip Flexor Stretch (1 minute):</h3>
+                  <!-- unorder list  -->
+                 <ul class="list-disc py-3 px-7">
+                 <li>Step your right foot forward into a lunge position.</li>
+                 <li>Lower your left knee to the ground and push your hips forward.</li>
+                 <li>Hold the stretch for 30 seconds and repeat on the left side.</li>
+                  </ul>
+             <!-- heading for 2. 15-Minute Cardiovascular Exercise Routine -->
+           <h3 class="text-3xl font-serif font-medium mb-2">2. 15-Minute Cardiovascular Exercise Routine</h3>
+           <!-- unorder list  -->
+           <ul class="list-disc py-3 px-7">
+            <li>Estimated Time: 15 minutes</li>
+            <li>This 15-minute cardiovascular exercise routine is a quick and effective way to get your <br> 
+              heart rate up and boost energy levels. It's perfect for days when you have limited time <br> 
+              but still want to engage in a short burst of cardio activity.</li>
+           </ul>
+             <!-- heading for I. Warm-up (2 minutes)-->
+             <h3 class="text-2xl font-medium mt-2 text-[#7d7abd]">I. Warm-up (2 minutes):</h3>
+             Start with some light jogging in place or jumping jacks to warm up your body.
+              <!-- heading for II. High Knees (2 minutes) -->
+              <h3 class="text-2xl font-medium mt-2 text-[#7d7abd]">II. High Knees (2 minutes):</h3>
+              Stand in place and lift your knees as high as possible while jogging in place. Aim for quick 
+              and controlled movements.
+               <!-- heading for III. Jump Rope (2 minutes) -->
+               <h3 class="text-2xl font-medium mt-2 text-[#7d7abd]">III. Jump Rope (2 minutes):</h3>
+               If you have a jump rope, use it for this exercise. Jump rope continuously for 2 minutes.
+                <!-- heading for IV. Squat Jumps (2 minutes) -->
+                <h3 class="text-2xl font-medium mt-2 text-[#7d7abd]">IV. Squat Jumps (2 minutes):</h3>
+                Stand with your feet shoulder-width apart, perform a squat, and explosively jump up. Land 
+                softly and immediately go into the next squat.
+                <!-- heading for V. Mountain Climbers (2 minutes) -->
+                <h3 class="text-2xl font-medium mt-2 text-[#7d7abd]">V. Mountain Climbers (2 minutes):</h3>
+                Get into a plank position and bring one knee towards your chest, alternating legs quickly in a running motion.
+                 <!-- heading for VI. Cool Down (2 minutes) -->
+                 <h3 class="text-2xl font-medium mt-2 text-[#7d7abd]">VI. Cool Down (2 minutes):</h3>
+                 Finish the routine with some slow marching in place or walking around to cool down your body..
+                 <!-- heading for 3. Mindful Focus Session -->
+           <h3 class="text-3xl font-serif font-medium mb-2">3. Mindful Focus Session</h3>
+           <!-- unorder list  -->
+           <ul class="list-disc py-3 px-7">
+            <li>Estimated Time: 5-20 minutes</li>
+            <li>A short but valuable pause for you to regain clarity and productivity. It allows a step back from distractions, enhancing mental clarity and awareness. This short but purposeful interval aids in prioritizing tasks, reducing stress, and optimizing decision-making, ultimately improving efficiency and well-being.</li>
+           </ul> 
+            <!-- heading for Session Selection (from LifeHack's Mindful Audio collection): -->
+           <h3 class="text-2xl font-medium mt-2 text-[#7d7abd]">Session Selection (from LifeHack's Mindful Audio collection):</h3>
+           <!-- unorder list -->
+           <ul class="list-disc py-3 px-8">
+            <li><a href="" class="text-[#7d7abd] text-lg underline">Mindful Reflection</a> (8 minutes)</li>
+            <li><a href="" class="text-[#7d7abd] text-lg underline">Breathing to Calm Down</a> (5 minutes)</li>
+            <li><a href="" class="text-[#7d7abd] text-lg underline">Creative Downtime</a> (13 minutes)</li>
+            <li><a href="" class="text-[#7d7abd] text-lg underline">Mindful Stretching</a> (20 minutes)</li>
+            <li>and over 20 more exercises...</li>
+          </ul>
+          </p>
+         </div>
+           <!-- Outer div for copilot9 -->
+       <div class="w-[1100px] h-auto bg-white mt-6 m-auto p-3 mb-4">
+        <!-- div for copilot9.... -->
+          <div class="mb-5"><img class="w-[1100px] rounded-xl lg:w-full md:w-[760px] sm:w-[640px] flex justify-center items-center mx-auto container" src="./copilot-9.png" alt=""></div>
+      </div>
+         <!-- div for para8.... -->
+         <div class="w-[720px] h-auto bg-white m-auto p-3 mb-4">
+          <p>
+            With a large collection of simple but ready-to-go Action Recipes, they can easily fill in <br>
+             unexpected gaps in your schedule, or combined together into longer more in depth sessions. <br>
+              With these filling in your daily routine, you don't need to wait for the weekend for self-care <br> 
+              and relaxation.
+          </p>
+         </div>
+           <!-- div for reclaim your time -->
+        <div class="w-full h-auto p-[40px] bg-[#d2ced4] flex-col"> 
+          <h3 class="text-3xl  font-serif flex justify-center items-center">Get Your Life Back on Track</h3> 
+           <!-- div for button find out -->
+            <div class=" flex justify-center items-center mt-5">
+              <button class=" flex justify-center items-center w-[450px] h-14 bg-[#ee7546] rounded-lg hover:bg-[#bd6847] hover:text-[#EEBC5E] text-white  text-xl">Find Out About <span class="font-bold ml-2">LifeHack All-Access</span></button></div>
+          </div> 
+ </div>
+
+         <!-- Footer Section -->
+         <footer class="text-white body-font bg-black">
+          <div class="container px-5 py-24 mx-auto">
+            <!-- main section of Categories -->
+            <div class="flex flex-wrap lg:justify-evenly md:text-left text-center -mb-10 -mx-4">
+              <!-- part1 of categories -->
+              <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+                <nav class="list-none mb-10 ">
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">LifeHack</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">About Us</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Wall of Love</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Blog</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">The LifeHack Show</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Shop</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Write For Us</a>
+                  </li>
+                </nav>
+              </div>
+               <!-- part2 of categories -->
+              <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+                <nav class="list-none mb-10">
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Tackling Distractions</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Boosting Focus</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Smart Prioritization</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Effective Planning & <br> Scheduling</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Wise Delegation</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Ending Procastination</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Achieving Goals</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Lasting Motivation</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Restoring Energy</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Work Life Balance</a>
+                  </li>
+                </nav>
+              </div>
+               <!-- part3 of categories -->
+              <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+                <nav class="list-none mb-10">
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Products</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Membership</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Time & Life Assessment</a>
+                  </li>
+                </nav>
+              </div>
+               <!-- part4 of categories -->
+              <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+                <nav class="list-none mb-10">
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Community</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Login In</a>
+                  </li>
+                </nav>
+              </div>
+               <!-- part5 of categories -->
+              <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+                <nav class="list-none mb-10">
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Contact Us</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">FAQ</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Facebook</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">Instagram</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:text-[#EEBC5E] cursor-pointer">You Tube</a>
+                  </li>
+                </nav>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-black">
+            <div class="container mx-auto py-4 px-5 flex justify-center flex-wrap sm:flex-row">
+              <p class="text-gray-500 flex flex-col items-center text-sm text-center sm:text-left">
+                <a href="https://twitter.com/knyttneve" target="_blank" rel="noopener noreferrer"> <span class="text-gray-600 ml-1  hover:text-[#EEBC5E]">Terms & Conditions</span> - <span class="text-gray-600 ml-1  hover:text-[#EEBC5E]">Privacy Policies</span></a> <br>
+                <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm">© 2005 - 2023 Lifehack · All Rights Reserved</span>
+              </p>
+              </div>
+          </div>
+        </footer>
+      </div>
+
+</body>
+</html>
